@@ -1,0 +1,481 @@
+{
+  "brand": {
+    "name": "SafeCircle",
+    "tagline": "Gemoedsrust voor zelfstandig wonen.",
+    "copyright": "© 2025 SafeCircle. Alle rechten voorbehouden."
+  },
+  "nav": {
+    "why": "Waarom SafeCircle",
+    "howitworks": "Hoe het werkt",
+    "pricing": "Prijzen",
+    "privacy": "Privacy & Beveiliging",
+    "cta": "Aan de slag"
+  },
+  "footer": {
+    "product": {
+      "heading": "Product",
+      "why": "Waarom SafeCircle",
+      "pricing": "Prijzen & Wat Je Krijgt",
+      "privacy": "Privacy & Beveiliging",
+      "devices": "Slimme Apparaten"
+    },
+    "support": {
+      "heading": "Ondersteuning",
+      "help": "Hulp & ondersteuning",
+      "contact": "Contact"
+    },
+    "legal": {
+      "heading": "Juridisch",
+      "privacy": "Privacybeleid",
+      "terms": "Gebruiksvoorwaarden",
+      "security": "Beveiliging",
+      "screenshots": "App Screenshots",
+      "design": "Design System"
+    }
+  },
+  "hero": {
+    "heading": "Dagelijkse gemoedsrust, vanzelf geregeld",
+    "subheading": "SafeCircle herkent wanneer alles normaal verloopt, zonder je te volgen. Dat geeft rust voor jou en je naasten, zonder in te leveren op zelfstandigheid of privacy.",
+    "cta": "Aan de slag",
+    "learnMore": "Waarom SafeCircle",
+    "title": "Dagelijkse gemoedsrust, vanzelf geregeld",
+    "subtitle": "SafeCircle herkent wanneer alles normaal verloopt, zonder je te volgen. Dat geeft rust voor jou en je naasten, zonder in te leveren op zelfstandigheid of privacy.",
+    "image": {
+      "alt": "Vrouw leest een boek alleen thuis"
+    }
+  },
+  "problem": {
+    "title": "Ik wil niet onopgemerkt blijven als er iets mis gaat",
+    "bullet1": {
+      "strong": "Zelfstandig wonen betekent dat er niemand in de buurt is om het te zien",
+      "regular": "als ik val, ziek word of in nood raak. Het kan lang duren voordat iemand doorheeft dat er iets aan de hand is."
+    },
+    "bullet2": {
+      "strong": "Mijn naasten en ik hebben het vaak druk,",
+      "regular": "en dagelijks bellen of appen is niet altijd realistisch. Maar ik wil wel dat ze het weten als er iets niet in de haak lijkt."
+    },
+    "bullet3": {
+      "strong": "Ik hecht aan mijn privacy en wil geen surveillance.",
+      "regular": "Ik wil dat er hulp beschikbaar is als het nodig is, maar geen camera's, constante tracking of iemand die meekijkt met wat ik dagelijks doe."
+    },
+    "closing": "SafeCircle biedt gemoedsrust voor jou en je naasten door patronen te herkennen, niet door je te volgen."
+  },
+  "howitworks": {
+    "title": "Simpel. Privé. Jij hebt de controle.",
+    "subtitle": "Standaard gebruikt SafeCircle alleen je smartphone. Het verzamelt het absolute minimum aan informatie om je naasten te laten weten dat alles in orde lijkt. Geen knoppen om in te drukken, geen apparaten om te onthouden.",
+    "feature1": {
+      "title": "Maximale gemoedsrust met minimale dataverzameling",
+      "description": "Geen camera's, geen audio, geen surveillance. Alleen simpele activiteitssignalen zoals je telefoon ontgrendelen, minder data dan de meeste apps verzamelen. Of deel helemaal niks en gebruik alleen pushnotificaties.",
+      "alt": "Privacy-first monitoring scherm"
+    },
+    "feature2": {
+      "title": "Je naasten krijgen de juiste informatie op het juiste moment",
+      "description": "Als alles goed gaat, zien je vertrouwde contacten die de app hebben geïnstalleerd een simpele bevestiging. Als er iets niet klopt, krijgen ze via de app, WhatsApp, sms of e-mail nuttige details krijgen zoals je laatste activiteit of locatie. Jij bepaalt wat er gedeeld wordt en wanneer.",
+      "alt": "Adaptief informatie delen scherm"
+    },
+    "feature3": {
+      "title": "Volledige controle over hoe de monitoring werkt",
+      "description": "Pauzeer de monitoring wanneer je maar wilt. Bepaal zelf hoe lang er gewacht wordt voordat er een waarschuwing verstuurd wordt. Of gebruik de pushnotificatie-modus om te bevestigen dat het goed met je gaat zonder gegevens te delen.",
+      "alt": "Monitoring controle instellingen scherm"
+    },
+    "selling1": {
+      "title": "Monitoring met alleen je smartphone",
+      "description": "Volgt stil je activiteitspatronen op je telefoon. Geen extra apparaten nodig."
+    },
+    "selling2": {
+      "title": "Optionele apparaten voor meer betrouwbaarheid",
+      "description": "Voeg optioneel slimme lampen of sensoren toe voor robuustere monitoring."
+    },
+    "selling3": {
+      "title": "Minimale dataverzameling",
+      "description": "SafeCircle gebruikt uitsluitend generieke activiteitspatronen om te bepalen of iets normaal of ongewoon is. Nooit wat je aan het doen bent of met wie je praat."
+    },
+    "expandable": {
+      "button": {
+        "show": "Wat bedoelen we met monitoring?",
+        "hide": "Verberg details"
+      },
+      "section1": {
+        "title": "We verzamelen zo weinig mogelijk informatie",
+        "p1": "SafeCircle monitort simpele activiteitssignalen, zoals wanneer je je telefoon ontgrendelt, een lamp aanzet of interactie hebt met gekoppelde apparaten. We nemen niet op wat je aan het doen bent, met wie je praat of wat er op je scherm staat.",
+        "p2": "Vergelijk het met een bewegingssensor in een kamer: die weet dat er iemand aanwezig en actief is, maar niks over wat diegene daadwerkelijk aan het doen is. Meer hoeft SafeCircle niet te weten om te zien dat je je normale routine volgt.",
+        "p3": "We gebruiken deze signalen om je typische dagelijkse patronen te leren. Wanneer je meestal actief bent en wanneer je normaal gesproken rust. Als dat patroon normaal doorgaat, zien je vertrouwde contacten een simpele \"alles is goed\" bevestiging. Als het patroon onverwacht doorbroken wordt, krijgen ze - na een door jou te bepalen tijd - een melding."
+      },
+      "section2": {
+        "title": "Monitoring vs. Surveillance",
+        "surveillance": {
+          "title": "Surveillance volgt wat je doet:",
+          "text": "Camera's die je in de gaten houden, GPS die je exacte locatie volgt, gesprekken die opgenomen worden, websites die gelogd worden, of wie je allemaal spreekt. Het is invasief en creëert een gedetailleerd overzicht van je leven."
+        },
+        "safecircle": {
+          "title": "SafeCircle monitort dat je actief bent:",
+          "text": "Simpele signalen die aangeven dat er activiteit plaatsvindt, niks over wat die activiteit is. Geen camera's, geen audio, geen gedetailleerde tracking. Net genoeg om te weten dat je routine normaal doorgaat, of wanneer dat niet zo is."
+        },
+        "keydifference": "Het belangrijkste verschil: Surveillance vertelt iemand alles over je leven. SafeCircle geeft alleen een signaal of je routine normaal lijkt of dat er misschien iets aan de hand is, zo houd je je privacy terwijl er toch gemoedsrust is."
+      }
+    }
+  },
+  "trustedcontacts": {
+    "title": "Voor je Vertrouwde Contacten",
+    "subtitle": "Als je iemands vertrouwd contact bent, ben je er wanneer het er echt toe doet. Ook als je er niet aan toekomt regelmatig te vragen of alles goed gaat.",
+    "state1": {
+      "description": "Installeer de app om te zien dat alles in orde is. Zolang je naaste zijn of haar dagelijkse gewoontes volgt, zie je dat er niets ongewoons gedetecteerd wordt."
+    },
+    "state2": {
+      "description": "Als er iets niet lijkt te kloppen, ontvang je een waarschuwing met handige informatie. Als je ervoor kiest om de app niet te installeren, krijg je waarschuwingen via sms."
+    }
+  },
+  "whyitmatters": {
+    "title": "Moeiteloze gemoedsrust",
+    "subtitle": "Veel mensen stellen het uitzoeken of delen van gezondheids- en veiligheidsinformatie uit. SafeCircle verlaagt de drempel: het is makkelijk in te stellen, werkt op de automatische piloot, en zorgt dat je naasten weten dat het goed met je gaat zonder in te leveren op je privacy.",
+    "perfectfor": {
+      "title": "Perfect voor:",
+      "item1": "Zelfstandig wonende volwassenen die onafhankelijkheid en gemoedsrust willen zonder apparaten te dragen zoals noodknoppen of smartwatches",
+      "item2": "Naasten die gemoedsrust willen maar geen tijd hebben voor regelmatige check-ins of niet opdringerig willen zijn."
+    },
+    "howitworks": {
+      "title": "Hoe het werkt",
+      "step1": "SafeCircle leert je normale dagelijkse patronen aan de hand van je telefoon en eventuele slimme apparaten die je al hebt. Het observeert dat er activiteit plaatsvindt tijdens je normale routines. Niet wat je aan het doen bent of waar je bent. SafeCircle verzamelt minimale data, minder dan veel populaire apps.",
+      "step2": "Zolang je activiteit overeenkomt met je normale patroon, markeert SafeCircle je automatisch als ingecheckt. Als je vertrouwde contacten de app geïnstalleerd hebben, zien ze een bevestiging dat alles goed lijkt te gaan. Zonder app geldt: geen nieuws is goed nieuws.",
+      "step3": "Als je routine significant verandert (bijvoorbeeld als er ongewoon lang geen activiteit gedetecteerd wordt), wacht SafeCircle een (door jou bepaalde) periode en waarschuwt dan je vertrouwde contacten via de app, sms, WhatsApp of e-mail. Zij kunnen dan rechtstreeks contact met je opnemen.",
+      "step4": "Je kunt altijd handmatig inchecken, je instellingen aanpassen of de monitoring pauzeren wanneer je op reis bent of je schema verandert."
+    },
+    "whatitisnot": {
+      "title": "Wat SafeCircle niet is",
+      "item1": {
+        "title": "Geen hulpdiensten.",
+        "text": "SafeCircle waarschuwt je contacten, niet 112. Het is ontworpen voor gemoedsrust, niet voor crisisrespons."
+      },
+      "item2": {
+        "title": "Geen medische monitoring.",
+        "text": "Het houdt geen gezondheidsgegevens, valdetectie of vitale functies bij. Het observeert alleen algemene activiteitspatronen."
+      },
+      "item3": {
+        "title": "Geen surveillance.",
+        "text": "Geen camera's, geen constante tracking, geen opnames van wat je aan het doen bent. Alleen patroonherkenning van apparaten die je al gebruikt."
+      }
+    }
+  },
+  "pricing": {
+    "heading": "Gemoedsrust op jouw manier",
+    "subheading": "Alle abonnementen hebben 14 dagen geld-terug-garantie. Annuleer je abonnement wanneer je wilt.",
+    "billing": {
+      "monthly": "Maandelijks",
+      "yearly": "Jaarlijks",
+      "save": "Bespaar 20%"
+    },
+    "popular": "MEEST GEKOZEN",
+    "perMonth": "/maand",
+    "perYear": "/jaar",
+    "cta": "Aan de slag",
+    "plans": {
+      "basic": {
+        "name": "Basis",
+        "description": "Smartphone monitoring. Automatische waarschuwingen wanneer je routine doorbroken wordt. Gemoedsrust zonder surveillance.",
+        "features": {
+          "0": {
+            "feature": "Dagelijkse gemoedsrust voor jou en je naasten",
+            "outcome": "op de automatische piloot"
+          },
+          "1": {
+            "feature": "Slimme waarschuwingen",
+            "outcome": "alleen waarschuwingen wanneer nodig"
+          },
+          "2": {
+            "feature": "Dashboard voor vertrouwde contacten",
+            "outcome": "bevestiging dat het goed met je gaat op ieder gewenst moment"
+          },
+          "3": {
+            "feature": "Privacy-first ontwerp",
+            "outcome": "minimale dataverzameling"
+          }
+        }
+      },
+      "full": {
+        "name": "Volledig",
+        "description": "Optionele apparaten",
+        "features": {
+          "0": {
+            "feature": "Alles van Basis",
+            "outcome": "alle functies inbegrepen"
+          },
+          "1": {
+            "feature": "Slimme apparaten koppelen",
+            "outcome": "werkt met lampen, sloten en meer"
+          },
+          "2": {
+            "feature": "Uitgebreidere monitoring",
+            "outcome": "nauwkeurigere activiteitspatronen"
+          },
+          "3": {
+            "feature": "Voorrang bij support",
+            "outcome": "snelle hulp wanneer nodig"
+          }
+        }
+      }
+    }
+  },
+  "privacy": {
+    "title": "We respecteren je privacy",
+    "card1": {
+      "title": "Geen surveillance",
+      "description": "Geen camera's, geen audio, geen constante tracking. SafeCircle observeert alleen simpele activiteitspatronen, niks persoonlijks of invasiefs."
+    },
+    "card2": {
+      "title": "Jij bepaalt wat er gedeeld wordt",
+      "description": "Kies precies wat elk vertrouwd contact kan zien. Voeg optioneel nuttige informatie toe aan verstuurde alerts."
+    },
+    "card3": {
+      "title": "Informatie is versleuteld en veilig",
+      "description": "Bankwaardige versleuteling beschermt alles. Alleen mensen die jij expliciet autoriseert kunnen zien wat je gekozen hebt om te delen."
+    },
+    "card4": {
+      "title": "Maximale privacy-modus beschikbaar",
+      "description": "Wil je nog minder gegevens delen? Gebruik dan de pushnotificatie-modus: geen activiteitsdata, alleen simpele check-ins die je zelf bevestigt."
+    }
+  },
+  "faq": {
+    "title": "Veelgestelde vragen",
+    "q1": {
+      "question": "Moet ik eraan denken om dagelijks in te checken?",
+      "answer": "Nee. SafeCircle werkt passief op de achtergrond. Er zijn geen knoppen om in te drukken, geen dagelijkse taken en niets om te onthouden."
+    },
+    "q2": {
+      "question": "Hoe wordt mijn informatie beschermd?",
+      "answer": "Je data is versleuteld met bankwaardige beveiliging. Jij bepaalt precies wie toegang heeft tot wat, en wanneer. Je informatie wordt nooit gedeeld zonder jouw toestemming."
+    },
+    "q3": {
+      "question": "Moeten mijn vertrouwde contacten de app installeren?",
+      "answer": "Nee. Je vertrouwde contacten kunnen waarschuwingen ontvangen via sms, WhatsApp of e-mail. De app installeren geeft ze toegang tot een dashboard voor gemoedsrust, maar dit is volledig optioneel."
+    },
+    "q4": {
+      "question": "Wat als ik op vakantie ga of mijn routine verandert?",
+      "answer": "Je kunt de monitoring makkelijk pauzeren of je routine-instellingen aanpassen wanneer je maar wilt. SafeCircle past zich aan jouw leven aan, niet andersom."
+    },
+    "q5": {
+      "question": "Hoe werkt de 14 dagen geld-terug-garantie?",
+      "answer": "Probeer SafeCircle geheel vrijblijvend voor de eerste 14 dagen. Als je om welke reden dan ook niet tevreden bent, annuleer dan gewoon je abonnement in de app binnen 14 dagen na je aankoop en je krijgt automatisch je geld volledig terug."
+    }
+  },
+  "finalcta": {
+    "title": "Woon zelfstandig, blijf voorbereid",
+    "subtitle": "Word vandaag nog lid van SafeCircle. 14 dagen geld-terug-garantie.",
+    "button": "Aan de slag"
+  },
+  "checkout": {
+    "title": "Voltooi je Aankoop",
+    "back": "Terug naar prijzen",
+    "steps": {
+      "step1": "Abonnement",
+      "step2": "Aanmelden",
+      "step3": "Betaling"
+    },
+    "plans": {
+      "basic": {
+        "name": "Basic",
+        "description": "Alleen smartphone",
+        "features": {
+          "1": "Smartphone activiteitsmonitoring",
+          "2": "Slimme waarschuwingen",
+          "3": "Dashboard voor vertrouwde contacten",
+          "4": "Privacy-first ontwerp"
+        }
+      },
+      "full": {
+        "name": "Full",
+        "description": "Optionele apparaten",
+        "features": {
+          "1": "Alles uit Basic",
+          "2": "Slimme apparaten koppelen",
+          "3": "Uitgebreidere monitoring",
+          "4": "Voorrang bij support"
+        }
+      }
+    },
+    "pricing": {
+      "permonth": "per maand",
+      "peryear": "/jaar"
+    },
+    "buttons": {
+      "continue": "Ga door naar Aanmelden",
+      "back": "Terug",
+      "next": "Ga door naar Betaling",
+      "complete": "Voltooi Aankoop"
+    },
+    "planselection": {
+      "title": "Abonnement",
+      "description": "Kies het abonnement dat bij je past"
+    },
+    "summary": {
+      "title": "Je bestelling",
+      "plan": "Abonnement:",
+      "billing": "Facturatie:",
+      "subtotal": "Subtotaal:",
+      "discount": "Korting (20%):",
+      "total": "Te betalen:",
+      "renews": "Verlengt automatisch elke {{period}}. Stop wanneer je wilt.",
+      "secure": "Veilige betaling",
+      "encrypted": "Versleuteld & beveiligd",
+      "moneyback": "14 dagen geld-terug-garantie",
+      "ordersummary": "Je bestelling",
+      "monthlysubscription": "Maandelijks Abonnement",
+      "yearlysubscription": "Jaarlijks Abonnement",
+      "foundingrate": "Founding member tarief",
+      "firstpayment": "Eerste Betaling",
+      "totaltoday": "Te betalen",
+      "for3months": "voor 3 maanden",
+      "forfirstyear": "voor je eerste jaar",
+      "then": "Daarna",
+      "permonthshort": "/maand",
+      "peryearshort": "/jaar",
+      "cancelanytime": "Annuleer wanneer je wilt",
+      "billedannually": "Jaarlijks gefactureerd",
+      "thats": "Dat is",
+      "secureencrypted": "Veilige versleutelde betaling",
+      "moneyback30": "30 dagen geld-terug-garantie"
+    },
+    "account": {
+      "title": "Maak je Account aan",
+      "description": "Voer je e-mailadres in om te beginnen",
+      "email": {
+        "label": "E-mailadres",
+        "placeholder": "jij@voorbeeld.nl",
+        "error": "Voer een geldig e-mailadres in",
+        "required": "E-mailadres is verplicht"
+      },
+      "exists": "Er bestaat al een account met dit e-mailadres.",
+      "back": "Terug",
+      "continue": "Ga door naar betaling"
+    },
+    "payment": {
+      "title": "Betaalgegevens",
+      "card": {
+        "label": "Kaartnummer",
+        "placeholder": "1234 5678 9012 3456"
+      },
+      "expiry": {
+        "label": "Vervaldatum",
+        "placeholder": "MM/JJ"
+      },
+      "cvc": {
+        "label": "CVC",
+        "placeholder": "123"
+      },
+      "zip": {
+        "label": "Postcode",
+        "placeholder": "1234 AB"
+      },
+      "name": {
+        "label": "Naam kaarthouder",
+        "placeholder": "Jan Jansen"
+      },
+      "terms": "Ik ga akkoord met de {{termsLink}} en het {{privacyLink}}",
+      "termslink": "Gebruiksvoorwaarden",
+      "privacylink": "Privacybeleid"
+    },
+    "cta": {
+      "complete": "Voltooi Aankoop",
+      "mobilecomplete": "Voltooi Aankoop"
+    },
+    "success": {
+      "title": "Welkom bij SafeCircle!",
+      "subtitle": "Je account is helemaal klaar",
+      "description": "Check je e-mail voor de volgende stappen om je monitoring in te stellen en vertrouwde contacten toe te voegen.",
+      "button": "Ga naar Dashboard"
+    },
+    "founding": {
+      "title": "Verzeker je Vroege Toegang als Founding Member",
+      "description": "SafeCircle is nog niet live. Je reserveert vandaag je plek als founding member. Na betaling krijg je je vroege toegangslink op <strong>{{email}}</strong>. Krijg vroege toegang en help het product vorm te geven met je feedback.",
+      "benefit1": {
+        "title": "Speciaal founding member tarief voor je eerste jaar",
+        "titleMonthly": "Speciaal founding member tarief voor je eerste 3 maanden",
+        "description": "Daarna standaard prijzen — annuleer wanneer je wilt"
+      },
+      "benefit2": {
+        "title": "Verlengde 30-dagen geld-terug-garantie",
+        "description": "Begint vanaf je eerste login. Je hebt een volle maand om het rustig uit te proberen. Als het niet bij je past, krijg je zonder opgave van reden een volledige terugbetaling."
+      }
+    },
+    "trust": {
+      "agree": "Ik ga akkoord met de {{termsLink}} en het {{privacyLink}}",
+      "termslink": "Gebruiksvoorwaarden",
+      "privacylink": "Privacybeleid",
+      "refund": "Volledige terugbetaling gegarandeerd",
+      "private": "Je data is privé",
+      "cancel": "Annuleer wanneer je wilt"
+    },
+    "founders": {
+      "title": "Wil je dit mee helpen vormgeven?",
+      "cta": "Plan een kort gesprek met de founders →"
+    },
+    "thankyou": {
+      "title": "Bedankt voor je Aanmelding bij SafeCircle!",
+      "description": "SafeCircle is nog niet live. Je betaling is geautoriseerd maar wordt pas verwerkt wanneer je toegang tot de app krijgt via e-mail.",
+      "whathappens": "Wat gebeurt er nu?",
+      "step1": "We sturen je een e-mail wanneer SafeCircle klaar is voor lancering",
+      "step2": "Je betaling wordt pas verwerkt zodra je toegang krijgt",
+      "step3": "Als founding member krijg je vroege toegang en speciale prijzen",
+      "thankyoutext": "Bedankt voor je registratie en geduld terwijl we je toegang voorbereiden. We zijn blij dat je founding member wordt!",
+      "questions": "Heb je vragen of wil je meer weten?",
+      "questionstext": "We beantwoorden graag al je vragen via een videogesprek of e-mail.",
+      "contact": "Neem contact op",
+      "home": "Terug naar Home"
+    }
+  },
+  "contact": {
+    "title": "Neem Contact Op",
+    "description": "Heb je vragen? We helpen je graag. Stuur ons een bericht of plan een gesprek.",
+    "form": {
+      "title": "Stuur ons een Bericht",
+      "response": "We reageren meestal binnen 24 uur.",
+      "success": "Bericht succesvol verzonden! We nemen binnenkort contact met je op.",
+      "error": "Verzenden mislukt. Probeer het opnieuw of mail ons direct op safecircle@bartgeelen.com",
+      "sending": "Versturen...",
+      "name": "Naam",
+      "email": "E-mailadres",
+      "subject": "Onderwerp",
+      "message": "Bericht",
+      "submit": "Verstuur Bericht"
+    },
+    "schedule": {
+      "title": "Plan een Gesprek",
+      "description": "Boek een videogesprek van 30 minuten met ons team. We nemen SafeCircle met je door, beantwoorden je vragen en helpen je bepalen of het bij je past.",
+      "cover": {
+        "title": "Wat we bespreken:",
+        "item1": "Hoe SafeCircle werkt",
+        "item2": "Installatie en compatibiliteit",
+        "item3": "Privacy en beveiligingsfuncties",
+        "item4": "Prijzen en abonnementsopties",
+        "item5": "Je specifieke vragen"
+      },
+      "button": "Plan je Gesprek",
+      "hours": "Beschikbaar maandag - vrijdag, 9:00 - 17:00 uur"
+    }
+  },
+  "help": {
+    "title": "Helpcentrum",
+    "description": "Vind antwoorden, krijg ondersteuning en leer hoe je het meeste uit SafeCircle haalt",
+    "faqtitle": "Veelgestelde Vragen",
+    "cta": {
+      "title": "Hulp nodig?",
+      "description": "Ons ondersteuningsteam staat klaar om je te helpen. Neem contact op en we reageren binnen 24 uur.",
+      "button": "Neem Contact Op"
+    }
+  },
+  "devices": {
+    "title": "Compatibele Slimme Apparaten",
+    "subtitle": "Verbeter je monitoring met optionele slimme apparaten. Niet verplicht, maar voegt betrouwbaarheid toe."
+  },
+  "terms": {
+    "title": "Gebruiksvoorwaarden",
+    "lastupdated": "Laatst bijgewerkt: {{date}}"
+  },
+  "privacypolicy": {
+    "title": "Privacybeleid",
+    "lastupdated": "Laatst bijgewerkt: {{date}}"
+  },
+  "security": {
+    "title": "Beveiliging & Databescherming",
+    "description": "Jouw veiligheid en privacy zijn onze topprioriteiten"
+  }
+}

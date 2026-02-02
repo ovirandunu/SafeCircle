@@ -1,0 +1,251 @@
+{
+  "hero": {
+    "livingAlone": {
+      "headline": "Live Alone, \nNever Unnoticed",
+      "subtitle": "Peace of mind for you and your loved ones.",
+      "cta_primary": "Get Started",
+      "cta_secondary": "Learn More"
+    },
+    "lovedOne": {
+      "headline": "Finally, \nStop Worrying",
+      "subtitle": "Peace of mind knowing they're safe, without being intrusive.",
+      "cta_primary": "Get Started",
+      "cta_secondary": "Learn More"
+    },
+    "stats": {
+      "activeUsers": "12,400+",
+      "checkInsToday": "11,987"
+    }
+  },
+
+  "problem": {
+    "livingAlone": {
+      "headline": "Living Alone Comes With Worries",
+      "painPoints": [
+        {
+          "title": "\"What if I fall and no one knows for days?\"",
+          "description": "The thought of being alone in an emergency—unable to call for help while hours or days pass—keeps you up at night."
+        },
+        {
+          "title": "\"I value my independence, but I also need backup.\"",
+          "description": "You want to live your life freely, but you also want someone to notice if your routine suddenly changes and something might be wrong."
+        },
+        {
+          "title": "\"If something happens to me, my family won't know where to start.\"",
+          "description": "Your important documents, financial accounts, and passwords are scattered. You know you should organize them, but it feels overwhelming, so it keeps getting postponed."
+        },
+        {
+          "title": "\"I don't want constant check-in calls.\"",
+          "description": "Daily \"are you okay?\" calls from worried family members feel loving but also restrictive. You want reassurance for everyone without feeling monitored."
+        }
+      ],
+      "closing": "You deserve to live independently with confidence, knowing help will come if needed—and your loved ones deserve peace of mind too."
+    },
+    "lovedOne": {
+      "headline": "The Constant Weight of Worry",
+      "painPoints": [
+        {
+          "title": "\"What if something happens and I don't find out for days?\"",
+          "description": "The fear that your parent, sibling, or friend could fall, have a medical emergency, or need help—and you won't know until it's too late—creates constant background anxiety."
+        },
+        {
+          "title": "\"I want to help without being a helicopter parent.\"",
+          "description": "You respect their independence and don't want to be intrusive, but you also wish there was a way to know they're safe without constant check-in calls that feel awkward for both of you."
+        },
+        {
+          "title": "\"If something happens, I have no idea what I'd need to handle.\"",
+          "description": "Where are their important documents? Which bills are on autopay? Who should be contacted? The thought of trying to figure all this out during a crisis is overwhelming."
+        },
+        {
+          "title": "\"They keep postponing organizing their affairs.\"",
+          "description": "You've gently suggested they write down important information, but it's a difficult conversation. People naturally avoid planning for vulnerability—it's completely normal to postpone these things."
+        }
+      ],
+      "closing": "They deserve to live independently with confidence, and you deserve to sleep soundly at night knowing you'll be alerted if something seems wrong."
+    }
+  },
+
+  "solution": {
+    "livingAlone": {
+      "headline": "Your Invisible Safety Net",
+      "paragraphs": [
+        "SafeCircle quietly learns your daily patterns—when you wake up, move around, use your phone. It works with just your smartphone, and gets even better if you have a smart light, thermostat, or voice assistant. **No cameras, no location tracking, no invasion of privacy.**",
+        "If your routine suddenly changes—like no activity for an unusual length of time—your chosen trusted contacts get a gentle notification. You can quickly confirm you're fine, or if you can't respond, they know to check on you.",
+        "SafeCircle also makes it easy to organize the information that matters—financial accounts, recurring bills, emergency contacts, wishes—in one secure place. If something happens, your trusted people get exactly what they need to help you, without the stress of searching."
+      ],
+      "stats": {
+        "accuracy": "99.7%",
+        "accuracyLabel": "Detection Accuracy",
+        "responseTime": "<2min",
+        "responseTimeLabel": "Avg. Alert Time"
+      }
+    },
+    "lovedOne": {
+      "headline": "Know They're Safe, Stay Connected",
+      "paragraphs": [
+        "SafeCircle works quietly in the background, monitoring their daily patterns through their existing devices. **You only get notified when something seems genuinely unusual**—like if there's been no activity when they're normally awake and moving around.",
+        "There's no constant checking, no awkward daily calls, no helicopter parenting. They maintain full independence and privacy. You get peace of mind knowing that if something's wrong, you'll know in time to help.",
+        "SafeCircle also helps them organize important information—accounts, bills, contacts, wishes. If there's an emergency, you'll have secure access to everything you need to help, without the overwhelming scramble."
+      ],
+      "stats": {
+        "accuracy": "99.7%",
+        "accuracyLabel": "Detection Accuracy",
+        "responseTime": "<2min",
+        "responseTimeLabel": "Avg. Alert Time"
+      }
+    }
+  },
+
+  "features": {
+    "headline": "Everything You Need for Peace of Mind",
+    "subtitle": "Thoughtfully designed for both your independence and your loved ones' reassurance",
+    "items": [
+      {
+        "title": "Intelligent Daily Monitoring",
+        "description": "So you know someone will notice if your routine suddenly changes. Works with just your phone—smart devices are optional extras that improve accuracy, but aren't required."
+      },
+      {
+        "title": "Smart Alert System",
+        "description": "Alerts only happen when genuinely needed, reducing false alarms and unnecessary worry. You stay in control while your trusted circle stays informed."
+      },
+      {
+        "title": "Bank-Level Security",
+        "description": "Your sensitive information stays protected with the same encryption banks use. You decide who sees what, and when they can access it."
+      },
+      {
+        "title": "Complete Information Vault",
+        "description": "Finally organize everything in one place so your loved ones aren't left scrambling. Set it up at your own pace—even 15 minutes makes a difference."
+      },
+      {
+        "title": "Emergency Protocol",
+        "description": "In a crisis, your trusted contacts get clear step-by-step guidance and instant access to what they need. No guessing, no stress, just clarity."
+      },
+      {
+        "title": "Trusted Contact Dashboard",
+        "description": "Your trusted contacts don't need to download anything unless they want to. They can receive alerts via SMS or email and only engage when it matters."
+      }
+    ],
+    "smartDeviceCallout": {
+      "title": "No Smart Home? No Problem.",
+      "description": "SafeCircle works great with just your smartphone—monitoring usage patterns, charging times, and more. Smart home devices like voice assistants, smart lights, or thermostats are optional extras that can improve accuracy, but **you absolutely don't need to buy anything new to get started**. We'll help you get the most out of what you already have."
+    }
+  },
+
+  "testimonials": {
+    "headline": "Trusted by Thousands Living Independently",
+    "subtitle": "Hear from our users and their loved ones",
+    "items": [
+      {
+        "quote": "As someone living alone after my husband passed, SafeCircle gives me confidence. My daughter gets peace of mind without having to constantly check on me. It's the perfect balance.",
+        "name": "Margaret S.",
+        "title": "SafeCircle User",
+        "company": "Age 68, Boston"
+      },
+      {
+        "quote": "My mom was hesitant at first, but after seeing how non-intrusive it is, she loves it. I get a notification if her routine changes, but otherwise I know she's fine. It's taken a huge weight off my shoulders.",
+        "name": "David Chen",
+        "title": "Trusted Contact",
+        "company": "Son of SafeCircle User"
+      },
+      {
+        "quote": "I'm only 52, but living alone with a heart condition, SafeCircle made sense. The information vault feature means my brother knows exactly what to do if something happens. That clarity is invaluable.",
+        "name": "Robert K.",
+        "title": "SafeCircle User",
+        "company": "Age 52, Seattle"
+      }
+    ],
+    "stats": {
+      "activeUsers": {
+        "value": "12,400+",
+        "label": "Active Users"
+      },
+      "accuracyRate": {
+        "value": "99.7%",
+        "label": "Accuracy Rate"
+      },
+      "livesHelped": {
+        "value": "847",
+        "label": "Lives Helped"
+      },
+      "userRating": {
+        "value": "4.9/5",
+        "label": "User Rating"
+      }
+    }
+  },
+
+  "howItWorks": {
+    "headline": "How It Works",
+    "subtitle": "Set up in minutes, protected for life",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Download & Connect",
+        "description": "Install SafeCircle and connect your existing smart devices. No new hardware needed—works with what you already have."
+      },
+      {
+        "number": "02",
+        "title": "Choose Your Trusted Contacts",
+        "description": "Select who should be notified if something seems unusual. They can use the app or receive SMS/email alerts."
+      },
+      {
+        "number": "03",
+        "title": "Organize Your Information",
+        "description": "Add important details at your own pace—finances, contacts, wishes. Skip anything you prefer to keep elsewhere."
+      },
+      {
+        "number": "04",
+        "title": "Live Your Life Freely",
+        "description": "SafeCircle works invisibly in the background. You maintain full independence while your safety net stays active."
+      }
+    ],
+    "trustedContacts": {
+      "headline": "For Trusted Contacts",
+      "description": "Being designated as a trusted contact means you're there when it matters most—without the burden of constant monitoring.",
+      "benefits": [
+        "Receive alerts only when SafeCircle detects something unusual",
+        "Get secure access to important information in emergencies",
+        "Choose your notification method: app, SMS, or email"
+      ]
+    }
+  },
+
+  "faq": {
+    "headline": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know about SafeCircle",
+    "items": [
+      {
+        "question": "How does SafeCircle monitor my activities without invading my privacy?",
+        "answer": "SafeCircle uses patterns from your existing devices (phone unlocks, smart lights, thermostat adjustments) without cameras or location tracking. We don't see what you're doing—just that you're doing your normal routine. The system learns your patterns over the first week and only alerts contacts when something is genuinely unusual."
+      },
+      {
+        "question": "What triggers a notification to my trusted contacts?",
+        "answer": "Notifications are sent when SafeCircle detects a significant deviation from your normal routine—for example, no phone activity for 18 hours when you typically check it every few hours, or no smart home activity during times you're usually active. You can always respond to confirm you're fine and prevent unnecessary worry."
+      },
+      {
+        "question": "How secure is my information in the Legacy Planner?",
+        "answer": "We use military-grade encryption and bank-level security protocols. You can require biometric verification (fingerprint or face recognition) before trusted contacts can access your information. We never sell your data, and you control exactly what's stored and who can access it."
+      },
+      {
+        "question": "What if I don't have any smart home devices?",
+        "answer": "Your smartphone alone provides valuable monitoring data through usage patterns. However, adding even one smart device (like a $10 smart plug for a lamp) significantly improves detection accuracy. We'll help you identify affordable options during setup."
+      },
+      {
+        "question": "Can I change my trusted contacts later?",
+        "answer": "Absolutely. You can add, remove, or change trusted contacts at any time. You can also adjust their access levels and notification preferences whenever you want. It's your circle, you're in complete control."
+      },
+      {
+        "question": "What happens if I travel or my routine changes temporarily?",
+        "answer": "You can easily put SafeCircle in \"Away Mode\" to adjust monitoring parameters, or the system will naturally adapt to your new patterns within a day or two. You can also send a quick note to trusted contacts through the app explaining you'll be away."
+      }
+    ]
+  },
+
+  "finalCTA": {
+    "headline": "Ready for Peace of Mind?",
+    "subtitle": "Join 12,400+ people living independently with confidence. Get started today with our 14-day money-back guarantee.",
+    "cta_primary": "Get Started",
+    "cta_secondary": "See How It Works",
+    "guarantee": "14-day money-back guarantee • Cancel anytime • No hidden fees"
+  }
+}

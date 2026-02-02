@@ -1,0 +1,200 @@
+Section,Key,Context,Page,English,Dutch,Notes
+UNIVERSAL,brand.name,Brand name,All pages,SafeCircle,SafeCircle,Never translate
+UNIVERSAL,brand.tagline,Footer tagline,All pages with Footer,Peace of mind for independent living.,Gemoedsrust voor zelfstandig wonen.,Brand promise
+UNIVERSAL,copyright,Copyright text,All pages with Footer,© 2025 SafeCircle. All rights reserved.,© 2025 SafeCircle. Alle rechten voorbehouden.,Legal text
+NAVIGATION,nav.why,Navigation menu item,Header,Why SafeCircle,Waarom SafeCircle,Links to problem section
+NAVIGATION,nav.howitworks,Navigation menu item,Header,How it works,Hoe het werkt,Links to how-it-works section
+NAVIGATION,nav.pricing,Navigation menu item,Header,Pricing,Prijzen,Links to pricing section
+NAVIGATION,nav.privacy,Navigation menu item,Header,Privacy & Security,Privacy & Beveiliging,Links to privacy section
+NAVIGATION,nav.cta,Header CTA button,Header,Get started,Aan de slag,Action button
+FOOTER,footer.product.heading,Footer column heading,Footer,Product,Product,Section title
+FOOTER,footer.product.why,Footer link,Footer,Why SafeCircle,Waarom SafeCircle,Links to features
+FOOTER,footer.product.pricing,Footer link,Footer,Pricing & What's Included,Prijzen & Wat Je Krijgt,Links to pricing
+FOOTER,footer.product.privacy,Footer link,Footer,Privacy & Security,Privacy & Beveiliging,Links to privacy
+FOOTER,footer.product.devices,Footer link,Footer,Smart Devices,Slimme Apparaten,Links to devices page
+FOOTER,footer.support.heading,Footer column heading,Footer,Support,Ondersteuning,Section title
+FOOTER,footer.support.help,Footer link,Footer,Help Center,Helpcentrum,Links to help
+FOOTER,footer.support.contact,Footer link,Footer,Contact Us,Contact,Links to contact
+FOOTER,footer.legal.heading,Footer column heading,Footer,Legal,Juridisch,Section title
+FOOTER,footer.legal.privacy,Footer link,Footer,Privacy Policy,Privacybeleid,Links to privacy policy
+FOOTER,footer.legal.terms,Footer link,Footer,Terms of Service,Gebruiksvoorwaarden,Links to terms
+FOOTER,footer.legal.security,Footer link,Footer,Security,Beveiliging,Links to security info
+FOOTER,footer.legal.screenshots,Footer link,Footer,App Screenshots,App Screenshots,Links to screenshots
+FOOTER,footer.legal.design,Footer link,Footer,Design System,Design System,Links to design system
+HERO,hero.title,Main heading,Landing Page,Daily reassurance on autopilot,"Dagelijkse gemoedsrust, vanzelf geregeld",Keep it punchy and emotional
+HERO,hero.subtitle,Subtitle,Landing Page,"SafeCircle gives you safety without surveillance. Peace of mind for you and your loved ones, without compromising your independence or privacy.","SafeCircle geeft je veiligheid zonder bewaking. Gemoedsrust voor jou en je naasten, zonder dat je je zelfstandigheid of privacy hoeft op te geven.",Core value proposition
+HERO,hero.cta.primary,Primary CTA button,Landing Page,Get Started,Aan de slag,Action button - keep short
+HERO,hero.cta.secondary,Secondary CTA button,Landing Page,Why SafeCircle,Waarom SafeCircle,Links to problem section
+HERO,hero.image.alt,Alt text for hero image,Landing Page,Woman reading book alone at home,Vrouw leest een boek alleen thuis,For accessibility
+PROBLEM,problem.title,Section heading,Landing Page,I don't want to be unnoticed if something goes wrong,Ik wil niet onopgemerkt blijven als er iets mis gaat,First-person perspective - emotional
+PROBLEM,problem.bullet1.strong,First bullet - bold text,Landing Page,Living alone means there's no one nearby to notice,Zelfstandig wonen betekent dat er niemand in de buurt is om het te zien,Emphasize the problem
+PROBLEM,problem.bullet1.regular,First bullet - regular text,Landing Page,"if I fall, get sick, or have an emergency. It could take a long time before anyone realizes something is wrong.","als ik val, ziek word of in nood raak. Het kan lang duren voordat iemand doorheeft dat er iets aan de hand is.",Complete the sentence
+PROBLEM,problem.bullet2.strong,Second bullet - bold text,Landing Page,"My loved ones and I are often busy,","Mijn naasten en ik hebben het vaak druk,",Relatable situation
+PROBLEM,problem.bullet2.regular,Second bullet - regular text,Landing Page,"and daily phone calls or texts are not always realistic. But I do want them to know if I go silent for too long.","en dagelijks bellen of appen is niet altijd realistisch. Maar ik wil wel dat ze het weten als ik te lang niets van me laat horen.",Balance independence with safety
+PROBLEM,problem.bullet3.strong,Third bullet - bold text,Landing Page,I value my privacy and don't want surveillance.,Ik hecht aan mijn privacy en wil geen bewaking.,Key differentiator
+PROBLEM,problem.bullet3.regular,Third bullet - regular text,Landing Page,"I want help to be available if needed, but I don't want cameras, constant tracking, or anyone watching what I do day-to-day.","Ik wil dat er hulp beschikbaar is als het nodig is, maar geen camera's, constante tracking of iemand die kijkt wat ik dagelijks doe.",Privacy emphasis
+PROBLEM,problem.closing,Closing statement - italic,Landing Page,"SafeCircle gives you safety without surveillance—peace of mind for you and your loved ones, without compromising your independence or privacy.","SafeCircle geeft je veiligheid zonder bewaking—gemoedsrust voor jou en je naasten, zonder dat je je zelfstandigheid of privacy hoeft op te geven.",Reinforces value proposition
+HOW IT WORKS,howitworks.title,Section heading,Landing Page,Simple. Private. In your control.,"Simpel. Privé. Jij hebt de controle.",Three-part promise
+HOW IT WORKS,howitworks.subtitle,Section subtitle,Landing Page,"By default, SafeCircle only uses your smartphone. It collects the minimum information needed to let your loved ones know that everything seems fine. No buttons to press, no devices to remember.","Standaard gebruikt SafeCircle alleen je smartphone. Het verzamelt het absolute minimum aan informatie om je naasten te laten weten dat alles in orde lijkt. Geen knoppen om in te drukken, geen apparaten om te onthouden.",Explains simplicity
+HOW IT WORKS,howitworks.feature1.title,First feature heading,Landing Page,Maximum reassurance with minimal data collection,Maximale geruststelling met minimale dataverzameling,Privacy-first approach
+HOW IT WORKS,howitworks.feature1.description,First feature description,Landing Page,"No cameras, no audio, no surveillance. Only simple activity signals like unlocking your phone, less data than most apps collect. Or share nothing at all and use push notifications only.","Geen camera's, geen audio, geen bewaking. Alleen simpele activiteitssignalen zoals je telefoon ontgrendelen—minder data dan de meeste apps verzamelen. Of deel helemaal niks en gebruik alleen pushnotificaties.",Emphasize what's NOT collected
+HOW IT WORKS,howitworks.feature1.alt,First screenshot alt text,Landing Page,Privacy-first monitoring screen,Privacy-first monitoring scherm,For accessibility
+HOW IT WORKS,howitworks.feature2.title,Second feature heading,Landing Page,Your loved ones get the right information at the right time,Je naasten krijgen de juiste informatie op het juiste moment,Adaptive sharing
+HOW IT WORKS,howitworks.feature2.description,Second feature description,Landing Page,"When all is well, contacts who have installed the app see simple confirmation. If something seems off, they can get helpful details like last activity or location via the app, WhatsApp, SMS, or email. You control what's shared and when.","Als alles goed gaat, zien je vertrouwde contacten die de app hebben geïnstalleerd een simpele bevestiging. Als er iets niet klopt, kunnen ze via de app, WhatsApp, sms of e-mail nuttige details krijgen zoals je laatste activiteit of locatie. Jij bepaalt wat er gedeeld wordt en wanneer.",Explains information flow
+HOW IT WORKS,howitworks.feature2.alt,Second screenshot alt text,Landing Page,Adaptive information sharing screen,Adaptief informatie delen scherm,For accessibility
+HOW IT WORKS,howitworks.feature3.title,Third feature heading,Landing Page,Full control over how monitoring works for you,Volledige controle over hoe de monitoring voor jou werkt,User empowerment
+HOW IT WORKS,howitworks.feature3.description,Third feature description,Landing Page,"Pause monitoring anytime. Choose how long before alerts are sent. Or use push-notification-only mode to confirm you're okay without sharing data.","Pauzeer de monitoring wanneer je maar wilt. Bepaal zelf hoe lang er gewacht wordt voordat er een waarschuwing verstuurd wordt. Of gebruik de pushnotificatie-modus om te bevestigen dat het goed met je gaat zonder data te delen.",Control and flexibility
+HOW IT WORKS,howitworks.feature3.alt,Third screenshot alt text,Landing Page,Monitoring control settings screen,Monitoring controle instellingen scherm,For accessibility
+HOW IT WORKS,howitworks.selling1.title,First selling point title,Landing Page,Smartphone-only monitoring,Alleen smartphone monitoring,Key benefit
+HOW IT WORKS,howitworks.selling1.description,First selling point description,Landing Page,Quietly tracks patterns of activity on your phone. No extra devices needed.,Volgt stil je activiteitspatronen op je telefoon. Geen extra apparaten nodig.,Emphasize simplicity
+HOW IT WORKS,howitworks.selling2.title,Second selling point title,Landing Page,Optional devices for reliability,Optionele apparaten voor meer betrouwbaarheid,Flexibility message
+HOW IT WORKS,howitworks.selling2.description,Second selling point description,Landing Page,"Connect smart lights or sensors to make monitoring more robust, but it's never required.","Koppel slimme lampen of sensoren voor robuustere monitoring, maar het is nooit verplicht.",Optional enhancement
+HOW IT WORKS,howitworks.selling3.title,Third selling point title,Landing Page,Minimal data collection,Minimale dataverzameling,Privacy emphasis
+HOW IT WORKS,howitworks.selling3.description,Third selling point description,Landing Page,Only the signals that something is normal or unusual. Never what you are doing or who you are talking to.,Alleen de signalen dat iets normaal of ongewoon is. Nooit wat je aan het doen bent of met wie je praat.,What's NOT collected
+HOW IT WORKS,howitworks.expandable.button.show,Button to show expandable content,Landing Page,What do we mean with monitoring?,Wat bedoelen we met monitoring?,Question format
+HOW IT WORKS,howitworks.expandable.button.hide,Button to hide expandable content,Landing Page,Hide details,Verberg details,Action text
+HOW IT WORKS,howitworks.expandable.section1.title,Expandable content - first section title,Landing Page,We collect the minimum information needed,We verzamelen het absolute minimum aan informatie,Transparency
+HOW IT WORKS,howitworks.expandable.section1.p1,Expandable content - paragraph 1,Landing Page,"SafeCircle monitors simple activity signals—like when you unlock your phone, turn on a light, or interact with connected devices. We don't record what you're doing, who you're talking to, or what's on your screen.","SafeCircle monitort simpele activiteitssignalen—zoals wanneer je je telefoon ontgrendelt, een lamp aanzet of interactie hebt met gekoppelde apparaten. We nemen niet op wat je aan het doen bent, met wie je praat of wat er op je scherm staat.",Explain activity signals
+HOW IT WORKS,howitworks.expandable.section1.p2,Expandable content - paragraph 2,Landing Page,"Think of it like a motion sensor in a room: it knows someone is present and active, but nothing about what they're actually doing. That's all SafeCircle needs to know you're going about your normal routine.","Vergelijk het met een bewegingssensor in een kamer: die weet dat er iemand aanwezig en actief is, maar niks over wat diegene daadwerkelijk aan het doen is. Meer hoeft SafeCircle niet te weten om te zien dat je je normale routine volgt.",Helpful analogy
+HOW IT WORKS,howitworks.expandable.section1.p3,Expandable content - paragraph 3,Landing Page,"We use these signals to learn your typical daily patterns—when you're usually active, when you typically rest. If that pattern continues normally, your trusted contacts see a simple ""all is well"" confirmation. If the pattern breaks unexpectedly, they're notified.","We gebruiken deze signalen om je typische dagelijkse patronen te leren—wanneer je meestal actief bent, wanneer je normaal gesproken rust. Als dat patroon normaal doorgaat, zien je vertrouwde contacten een simpele ""alles is goed"" bevestiging. Als het patroon onverwacht doorbroken wordt, krijgen ze een melding.",How it works
+HOW IT WORKS,howitworks.expandable.section2.title,Expandable content - second section title,Landing Page,Monitoring vs. Surveillance,Monitoring vs. Bewaking,Key distinction
+HOW IT WORKS,howitworks.expandable.section2.surveillance.title,Surveillance explanation title,Landing Page,Surveillance tracks what you do:,Bewaking volgt wat je doet:,Italic emphasis on 'what'
+HOW IT WORKS,howitworks.expandable.section2.surveillance.text,Surveillance explanation,Landing Page,"Cameras watching you, GPS tracking your exact location, recording conversations, logging websites you visit, or monitoring who you communicate with. It's invasive and creates a detailed record of your life.","Camera's die je in de gaten houden, GPS die je exacte locatie volgt, gesprekken die opgenomen worden, websites die gelogd worden, of wie je allemaal spreekt. Het is invasief en creëert een gedetailleerd overzicht van je leven.",What we DON'T do
+HOW IT WORKS,howitworks.expandable.section2.safecircle.title,SafeCircle explanation title,Landing Page,SafeCircle monitors that you're active:,SafeCircle monitort dat je actief bent:,Italic emphasis on 'that'
+HOW IT WORKS,howitworks.expandable.section2.safecircle.text,SafeCircle explanation,Landing Page,"Simple signals that indicate activity is happening—nothing about what that activity is. No cameras, no audio, no detailed tracking. Just enough to know your routine continues normally, or when it doesn't.","Simpele signalen die aangeven dat er activiteit plaatsvindt—niks over wat die activiteit is. Geen camera's, geen audio, geen gedetailleerde tracking. Net genoeg om te weten dat je routine normaal doorgaat, of wanneer dat niet zo is.",What we DO
+HOW IT WORKS,howitworks.expandable.section2.keydifference,Key difference callout box,Landing Page,"The key difference: Surveillance tells someone everything about your life. SafeCircle only signals whether your routine seems normal or if something might be wrong—giving you privacy while still providing reassurance.","Het belangrijkste verschil: Bewaking vertelt iemand alles over je leven. SafeCircle geeft alleen een signaal of je routine normaal lijkt of dat er misschien iets aan de hand is—zo houd je je privacy terwijl er toch geruststelling is.",Bold 'The key difference:'
+TRUSTED CONTACTS,trustedcontacts.title,Section heading,Landing Page,For Trusted Contacts,Voor je Vertrouwde Contacten,Contacts perspective
+TRUSTED CONTACTS,trustedcontacts.subtitle,Section subtitle,Landing Page,"Being designated as a trusted contact means you're there when it matters most. Without consistently asking if everything is fine.","Als je iemands vertrouwd contact bent, ben je er wanneer het er echt toe doet. Zonder steeds te moeten vragen of alles goed gaat.",Balance of information
+TRUSTED CONTACTS,trustedcontacts.state1.description,First state description,Landing Page,"Install the app to see everything is fine. If you're loved one is going about their day you see that nothing unusual is detected.","Installeer de app om te zien dat alles in orde is. Als je naaste zijn of haar dag doorbrengt, zie je dat er niets ongewoons gedetecteerd wordt.",Low friction
+TRUSTED CONTACTS,trustedcontacts.state2.description,Second state description,Landing Page,"If something seems off, you receive an alert with helpful information. If you choose not to install the app, you get alerts via SMS.","Als er iets niet klopt, ontvang je een waarschuwing met nuttige informatie. Als je ervoor kiest om de app niet te installeren, krijg je waarschuwingen via sms.",Actionable information
+WHY IT MATTERS,whyitmatters.title,Section heading,Landing Page,Effortless reassurance,Moeiteloos geruststelling,Key benefit
+WHY IT MATTERS,whyitmatters.subtitle,Section subtitle,Landing Page,"Many people put off organizing or sharing health and safety info. SafeCircle lowers the threshold: it's easy to set up, runs on autopilot, and ensures loved ones know you're okay without pressure or surveillance.","Veel mensen stellen het uitzoeken of delen van gezondheids- en veiligheidsinformatie uit. SafeCircle verlaagt de drempel: het is makkelijk in te stellen, werkt op de automatische piloot, en zorgt dat je naasten weten dat het goed met je gaat zonder druk of bewaking.",Removes friction
+WHY IT MATTERS,whyitmatters.perfectfor.title,Subsection heading,Landing Page,It's perfect for:,Perfect voor:,List introduction
+WHY IT MATTERS,whyitmatters.perfectfor.item1,First perfect-for item,Landing Page,Adults living alone who want independence and safety without wearing devices like emergency buttons or smartwatches,Volwassenen die zelfstandig wonen en onafhankelijkheid en veiligheid willen zonder apparaten te dragen zoals noodknoppen of smartwatches,Target audience 1
+WHY IT MATTERS,whyitmatters.perfectfor.item2,Second perfect-for item,Landing Page,Loved ones who want reassurance but lack time for frequent check-ins or worry about being intrusive,Naasten die geruststelling willen maar geen tijd hebben voor regelmatige check-ins of bang zijn om opdringerig te zijn,Target audience 2
+WHY IT MATTERS,whyitmatters.howitworks.title,How it works subsection heading,Landing Page,How it works,Hoe het werkt,Process explanation
+WHY IT MATTERS,whyitmatters.howitworks.step1,First step,Landing Page,"SafeCircle learns your normal daily patterns using your phone and any smart devices you already have. It observes that activity is happening during your typical routine. Not what you're doing or where you are. SafeCircle uses minimal data collection, less than many popular apps.","SafeCircle leert je normale dagelijkse patronen aan de hand van je telefoon en eventuele slimme apparaten die je al hebt. Het observeert dat er activiteit plaatsvindt tijdens je normale routine. Niet wat je aan het doen bent of waar je bent. SafeCircle verzamelt minimale data, minder dan veel populaire apps.",Pattern learning
+WHY IT MATTERS,whyitmatters.howitworks.step2,Second step,Landing Page,"Each day, when your activity matches your normal pattern, SafeCircle automatically marks you as checked in. If your trusted contacts have installed the app, they see quiet confirmation that you're going about your day. If not, no news is good news.","Elke dag, wanneer je activiteit overeenkomt met je normale patroon, markeert SafeCircle je automatisch als ingecheckt. Als je vertrouwde contacten de app geïnstalleerd hebben, zien ze een rustige bevestiging dat je je dag doorbrengt. Zo niet, geen nieuws is goed nieuws.",Automatic check-in
+WHY IT MATTERS,whyitmatters.howitworks.step3,Third step,Landing Page,"If your routine changes significantly (for example, no activity is detected for an unusual length of time) SafeCircle waits a period you decide, then alerts your trusted contacts via the app, SMS, WhatsApp, or email. They can reach out to you directly.","Als je routine significant verandert (bijvoorbeeld als er ongewoon lang geen activiteit gedetecteerd wordt), wacht SafeCircle een periode die jij bepaalt en waarschuwt dan je vertrouwde contacten via de app, sms, WhatsApp of e-mail. Zij kunnen dan rechtstreeks contact met je opnemen.",Alert mechanism
+WHY IT MATTERS,whyitmatters.howitworks.step4,Fourth step,Landing Page,"You can manually check in anytime, adjust your settings, or pause monitoring when you're traveling or your schedule changes.","Je kunt altijd handmatig inchecken, je instellingen aanpassen of de monitoring pauzeren wanneer je op reis bent of je schema verandert.",Flexibility
+WHY IT MATTERS,whyitmatters.whatitisnot.title,What this is not - section heading,Landing Page,What this is not,Wat dit niet is,Set expectations
+WHY IT MATTERS,whyitmatters.whatitisnot.item1.title,Not emergency services title,Landing Page,Not emergency services.,Geen hulpdiensten.,Bold title
+WHY IT MATTERS,whyitmatters.whatitisnot.item1.text,Not emergency services text,Landing Page,"SafeCircle alerts your contacts, not 911. It's designed for peace of mind, not crisis response.","SafeCircle waarschuwt je contacten, niet 112. Het is ontworpen voor gemoedsrust, niet voor crisisrespons.",Clarify scope
+WHY IT MATTERS,whyitmatters.whatitisnot.item2.title,Not medical monitoring title,Landing Page,Not medical monitoring.,Geen medische monitoring.,Bold title
+WHY IT MATTERS,whyitmatters.whatitisnot.item2.text,Not medical monitoring text,Landing Page,"It doesn't track health metrics, fall detection, or vital signs. It observes general activity patterns only.","Het houdt geen gezondheidsgegevens, valdetectie of vitale functies bij. Het observeert alleen algemene activiteitspatronen.",Clarify scope
+WHY IT MATTERS,whyitmatters.whatitisnot.item3.title,Not surveillance title,Landing Page,Not surveillance.,Geen bewaking.,Bold title
+WHY IT MATTERS,whyitmatters.whatitisnot.item3.text,Not surveillance text,Landing Page,"No cameras, no constant tracking, no recording of what you're doing. Just pattern recognition from devices you already use.","Geen camera's, geen constante tracking, geen opnames van wat je aan het doen bent. Alleen patroonherkenning van apparaten die je al gebruikt.",Privacy reassurance
+PRICING,pricing.title,Section heading,Landing Page,Peace of mind your way,Gemoedsrust op jouw manier,Flexibility message
+PRICING,pricing.subtitle,Section subtitle,Landing Page,All plans come with a 14-day money-back guarantee. Cancel anytime.,Alle abonnementen hebben 14 dagen geld-terug-garantie. Stop wanneer je wilt.,Risk-free promise
+PRICING,pricing.toggle.monthly,Billing toggle - monthly option,Landing Page / Checkout,Monthly,Maandelijks,Billing frequency
+PRICING,pricing.toggle.yearly,Billing toggle - yearly option,Landing Page / Checkout,Yearly,Jaarlijks,Billing frequency
+PRICING,pricing.toggle.save,Save badge on yearly toggle,Landing Page / Checkout,Save 20%,Bespaar 20%,Discount indicator
+PRICING,pricing.basic.name,Basic plan name,Landing Page / Checkout,Basic,Basis,Plan tier
+PRICING,pricing.basic.description,Basic plan description,Landing Page / Checkout,Smartphone monitoring. Automatic alerts when your routine breaks. Peace of mind without surveillance.,Smartphone monitoring. Automatische waarschuwingen wanneer je routine doorbroken wordt. Gemoedsrust zonder bewaking.,Plan summary
+PRICING,pricing.basic.feature1,Basic plan - first feature,Landing Page / Checkout,Daily reassurance for you and loved ones,Dagelijkse geruststelling voor jou en je naasten,Feature title
+PRICING,pricing.basic.feature1.outcome,Basic plan - first feature outcome,Landing Page / Checkout,peace of mind for everyone,gemoedsrust voor iedereen,Italic outcome text
+PRICING,pricing.basic.feature2,Basic plan - second feature,Landing Page / Checkout,Smart alert notifications,Slimme waarschuwingen,Feature title
+PRICING,pricing.basic.feature2.outcome,Basic plan - second feature outcome,Landing Page / Checkout,alerts only when needed,alleen waarschuwingen wanneer nodig,Italic outcome text
+PRICING,pricing.basic.feature3,Basic plan - third feature,Landing Page / Checkout,Trusted contact dashboard,Dashboard voor vertrouwde contacten,Feature title
+PRICING,pricing.basic.feature3.outcome,Basic plan - third feature outcome,Landing Page / Checkout,quiet confirmation you're okay,rustige bevestiging dat het goed met je gaat,Italic outcome text
+PRICING,pricing.basic.feature4,Basic plan - fourth feature,Landing Page / Checkout,Privacy-first design,Privacy-first ontwerp,Feature title
+PRICING,pricing.basic.feature4.outcome,Basic plan - fourth feature outcome,Landing Page / Checkout,minimal data collection,minimale dataverzameling,Italic outcome text
+PRICING,pricing.full.name,Full plan name,Landing Page / Checkout,Full,Volledig,Plan tier
+PRICING,pricing.full.description,Full plan description,Landing Page / Checkout,Optional devices,Optionele apparaten,Plan summary
+PRICING,pricing.full.badge,Most popular badge,Landing Page / Checkout,MOST POPULAR,MEEST GEKOZEN,Plan popularity indicator
+PRICING,pricing.full.feature1,Full plan - first feature,Landing Page / Checkout,Everything in Basic,Alles van Basis,Feature title
+PRICING,pricing.full.feature1.outcome,Full plan - first feature outcome,Landing Page / Checkout,all core features included,alle kernfuncties inbegrepen,Italic outcome text
+PRICING,pricing.full.feature2,Full plan - second feature,Landing Page / Checkout,Smart device integration,Slimme apparaten koppelen,Feature title
+PRICING,pricing.full.feature2.outcome,Full plan - second feature outcome,Landing Page / Checkout,"works with lights, locks, and more","werkt met lampen, sloten en meer",Italic outcome text
+PRICING,pricing.full.feature3,Full plan - third feature,Landing Page / Checkout,Enhanced monitoring,Uitgebreidere monitoring,Feature title
+PRICING,pricing.full.feature3.outcome,Full plan - third feature outcome,Landing Page / Checkout,more accurate activity patterns,nauwkeurigere activiteitspatronen,Italic outcome text
+PRICING,pricing.full.feature4,Full plan - fourth feature,Landing Page / Checkout,Priority support,Voorrang bij support,Feature title
+PRICING,pricing.full.feature4.outcome,Full plan - fourth feature outcome,Landing Page / Checkout,fast help when needed,snelle hulp wanneer nodig,Italic outcome text
+PRICING,pricing.permonth,Price unit,Landing Page / Checkout,/month,/maand,Pricing suffix
+PRICING,pricing.peryear,Price unit - yearly,Checkout,/year,/jaar,Pricing suffix for yearly
+PRICING,pricing.yearly.savings,Yearly savings text,Landing Page,€{yearlyTotal}/year - Save 20%,€{yearlyTotal}/jaar - Bespaar 20%,Shows annual cost and savings
+PRICING,pricing.cta,Plan CTA button,Landing Page / Checkout,Get Started,Aan de slag,Action button
+PRIVACY,privacy.title,Section heading,Landing Page,We respect your privacy,We respecteren je privacy,Core value
+PRIVACY,privacy.card1.title,First card title,Landing Page,No surveillance,Geen bewaking,Key promise
+PRIVACY,privacy.card1.description,First card description,Landing Page,"No cameras, no audio, no constant tracking. SafeCircle observes simple activity patterns only, nothing personal or invasive.","Geen camera's, geen audio, geen constante tracking. SafeCircle observeert alleen simpele activiteitspatronen, niks persoonlijks of invasiefs.",What we don't do
+PRIVACY,privacy.card2.title,Second card title,Landing Page,You control what's shared,Jij bepaalt wat er gedeeld wordt,User control
+PRIVACY,privacy.card2.description,Second card description,Landing Page,"Choose exactly what each trusted contact can see. Optionally share helpful information like location only when an alert is triggered.","Kies precies wat elk vertrouwd contact kan zien. Deel optioneel nuttige informatie zoals je locatie alleen wanneer er een waarschuwing afgaat.",Granular control
+PRIVACY,privacy.card3.title,Third card title,Landing Page,Information is encrypted and secure,Informatie is versleuteld en veilig,Security promise
+PRIVACY,privacy.card3.description,Third card description,Landing Page,"Bank-level encryption protects everything. Only people you explicitly authorize can see what you've chosen to share.","Bankwaardige versleuteling beschermt alles. Alleen mensen die jij expliciet autoriseert kunnen zien wat je gekozen hebt om te delen.",Technical security
+PRIVACY,privacy.card4.title,Fourth card title,Landing Page,Maximum privacy mode available,Maximale privacy-modus beschikbaar,Extra privacy option
+PRIVACY,privacy.card4.description,Fourth card description,Landing Page,"Want even less data shared? Use push-notification-only mode: No activity data, just simple check-ins you confirm yourself.","Wil je nog minder data delen? Gebruik de pushnotificatie-modus: geen activiteitsdata, alleen simpele check-ins die je zelf bevestigt.",Ultimate privacy mode
+FAQ,faq.title,Section heading,Landing Page,Common questions,Veelgestelde vragen,Q&A section
+FAQ,faq.q1.question,First FAQ question,Landing Page,Will I need to remember to check in daily?,Moet ik eraan denken om dagelijks in te checken?,Common concern
+FAQ,faq.q1.answer,First FAQ answer,Landing Page,"No. SafeCircle works passively in the background. There are no buttons to press, no daily tasks, and nothing to remember.","Nee. SafeCircle werkt passief op de achtergrond. Er zijn geen knoppen om in te drukken, geen dagelijkse taken en niets om te onthouden.",Reassurance
+FAQ,faq.q2.question,Second FAQ question,Landing Page,How is my information protected?,Hoe wordt mijn informatie beschermd?,Security concern
+FAQ,faq.q2.answer,Second FAQ answer,Landing Page,"Your data is encrypted with bank-level security. You control exactly who can access what, and when. Your information is never shared without your permission.","Je data is versleuteld met bankwaardige beveiliging. Jij bepaalt precies wie toegang heeft tot wat, en wanneer. Je informatie wordt nooit gedeeld zonder jouw toestemming.",Security details
+FAQ,faq.q3.question,Third FAQ question,Landing Page,Do my trusted contacts need to install the app?,Moeten mijn vertrouwde contacten de app installeren?,Technical question
+FAQ,faq.q3.answer,Third FAQ answer,Landing Page,"No. Your trusted contacts can receive alerts via SMS, WhatsApp, or email. Installing the app gives them access to a dashboard for reassurance, but it's completely optional.","Nee. Je vertrouwde contacten kunnen waarschuwingen ontvangen via sms, WhatsApp of e-mail. De app installeren geeft ze toegang tot een dashboard voor geruststelling, maar het is volledig optioneel.",Flexibility
+FAQ,faq.q4.question,Fourth FAQ question,Landing Page,What if I go on vacation or change my routine?,Wat als ik op vakantie ga of mijn routine verandert?,Lifestyle question
+FAQ,faq.q4.answer,Fourth FAQ answer,Landing Page,"You can easily pause monitoring or adjust your routine settings anytime. SafeCircle adapts to your life, not the other way around.","Je kunt de monitoring makkelijk pauzeren of je routine-instellingen aanpassen wanneer je maar wilt. SafeCircle past zich aan jouw leven aan, niet andersom.",Adaptability
+FAQ,faq.q5.question,Fifth FAQ question,Landing Page,How does the 14-day money-back guarantee work?,Hoe werkt de 14 dagen geld-terug-garantie?,Purchase concern
+FAQ,faq.q5.answer,Fifth FAQ answer,Landing Page,"Try SafeCircle risk-free for 14 days. If you're not satisfied for any reason, simply cancel your subscription in the app within 14 days of your purchase and you'll automatically receive a full refund—no questions asked, no need to contact us.","Probeer SafeCircle 14 dagen zonder risico. Als je om welke reden dan ook niet tevreden bent, annuleer dan gewoon je abonnement in de app binnen 14 dagen na je aankoop en je krijgt automatisch je geld volledig terug—zonder vragen, zonder dat je contact hoeft op te nemen.",Money-back guarantee details
+FINAL CTA,finalcta.title,Section heading,Landing Page,"Live independently, stay prepared","Woon zelfstandig, blijf voorbereid",Closing message
+FINAL CTA,finalcta.subtitle,Section subtitle,Landing Page,Join SafeCircle today. 14-day money-back guarantee.,Word vandaag lid van SafeCircle. 14 dagen geld-terug-garantie.,Call to action
+FINAL CTA,finalcta.button,Primary button,Landing Page,Get Started,Aan de slag,Action button
+CHECKOUT,checkout.title,Page title,Checkout,Complete Your Purchase,Voltooi je Aankoop,Transactional page title
+CHECKOUT,checkout.back,Back link,Checkout,Back to pricing,Terug naar prijzen,Return link
+CHECKOUT,checkout.planselection.title,Plan selection heading,Checkout,Select Plan,Kies een Abonnement,Section heading
+CHECKOUT,checkout.planselection.description,Plan selection description,Checkout,Choose the plan that's right for you,Kies het abonnement dat bij je past,Instructions
+CHECKOUT,checkout.summary.title,Order summary heading,Checkout,Order Summary,Bestelsamenvatting,Section heading
+CHECKOUT,checkout.summary.plan,Plan label in summary,Checkout,Plan:,Abonnement:,Order item label
+CHECKOUT,checkout.summary.billing,Billing label in summary,Checkout,Billing:,Facturatie:,Billing frequency label
+CHECKOUT,checkout.summary.subtotal,Subtotal label,Checkout,Subtotal:,Subtotaal:,Price calculation
+CHECKOUT,checkout.summary.discount,Discount label,Checkout,Discount (20%):,Korting (20%):,Discount applied
+CHECKOUT,checkout.summary.total,Total label,Checkout,Total today:,Totaal vandaag:,Final price
+CHECKOUT,checkout.summary.renews,Renewal notice,Checkout,"Renews automatically every {period}. Cancel anytime.","Verlengt automatisch elke {period}. Stop wanneer je wilt.",Subscription terms
+CHECKOUT,checkout.summary.secure,Secure payment icon text,Checkout,Secure payment,Veilige betaling,Trust indicator
+CHECKOUT,checkout.summary.encrypted,Encrypted icon text,Checkout,Encrypted & protected,Versleuteld & beveiligd,Security badge
+CHECKOUT,checkout.summary.moneyback,Money-back guarantee text,Checkout,14-day money-back guarantee,14 dagen geld-terug-garantie,Risk-free promise
+CHECKOUT,checkout.account.title,Account section heading,Checkout,Create Your Account,Maak je Account aan,Account creation
+CHECKOUT,checkout.account.description,Account section description,Checkout,Enter your email to get started,Voer je e-mailadres in om te beginnen,Instructions
+CHECKOUT,checkout.account.email.label,Email field label,Checkout,Email address,E-mailadres,Form field
+CHECKOUT,checkout.account.email.placeholder,Email field placeholder,Checkout,you@example.com,jij@voorbeeld.nl,Input example
+CHECKOUT,checkout.account.email.error,Email validation error,Checkout,Please enter a valid email address,Voer een geldig e-mailadres in,Error message
+CHECKOUT,checkout.account.exists,Account exists message,Checkout,An account with this email already exists.,Er bestaat al een account met dit e-mailadres.,Account conflict
+CHECKOUT,checkout.account.back,Back button in account,Checkout,Back,Terug,Navigation
+CHECKOUT,checkout.account.continue,Continue button in account,Checkout,Continue to payment,Ga door naar betaling,Proceed action
+CHECKOUT,checkout.payment.title,Payment section heading,Checkout,Payment Information,Betaalgegevens,Payment form
+CHECKOUT,checkout.payment.card.label,Card number field label,Checkout,Card number,Kaartnummer,Form field
+CHECKOUT,checkout.payment.card.placeholder,Card number placeholder,Checkout,1234 5678 9012 3456,1234 5678 9012 3456,Input example
+CHECKOUT,checkout.payment.expiry.label,Expiry date field label,Checkout,Expiry date,Vervaldatum,Form field
+CHECKOUT,checkout.payment.expiry.placeholder,Expiry placeholder,Checkout,MM/YY,MM/JJ,Input format
+CHECKOUT,checkout.payment.cvc.label,CVC field label,Checkout,CVC,CVC,Form field
+CHECKOUT,checkout.payment.cvc.placeholder,CVC placeholder,Checkout,123,123,Input example
+CHECKOUT,checkout.payment.name.label,Cardholder name field label,Checkout,Cardholder name,Naam kaarthouder,Form field
+CHECKOUT,checkout.payment.name.placeholder,Name placeholder,Checkout,John Doe,Jan Jansen,Input example
+CHECKOUT,checkout.payment.terms,Terms acceptance checkbox,Checkout,"I agree to the {termsLink} and {privacyLink}","Ik ga akkoord met de {termsLink} en het {privacyLink}",Legal agreement - termsLink and privacyLink are hyperlinks
+CHECKOUT,checkout.payment.terms.link1,Terms of Service link text,Checkout,Terms of Service,Gebruiksvoorwaarden,Hyperlink text
+CHECKOUT,checkout.payment.terms.link2,Privacy Policy link text,Checkout,Privacy Policy,Privacybeleid,Hyperlink text
+CHECKOUT,checkout.cta.complete,Complete purchase button,Checkout,Complete Purchase,Voltooi Aankoop,Final CTA
+CHECKOUT,checkout.cta.mobilecomplete,Mobile complete button,Checkout,Complete Purchase,Voltooi Aankoop,Mobile CTA
+CHECKOUT,checkout.bonus.title,Bonus feature title,Checkout,Get 2 months free,Ontvang 2 maanden gratis,Promotional offer
+CHECKOUT,checkout.bonus.description,Bonus description,Checkout,Your first 2 months are on us when you choose annual billing,Je eerste 2 maanden zijn van ons als je voor jaarlijkse facturatie kiest,Offer details
+CHECKOUT,checkout.bonus.feature1.title,First bonus feature,Checkout,Full access to all features,Volledige toegang tot alle functies,Benefit
+CHECKOUT,checkout.bonus.feature1.description,Feature 1 description,Checkout,"Including smart device integration, enhanced monitoring, and priority support","Inclusief slimme apparaten koppelen, uitgebreidere monitoring en voorrang bij support",Details
+CHECKOUT,checkout.bonus.feature2.title,Second bonus feature,Checkout,Worth €16 in value,Ter waarde van €16,Monetary value
+CHECKOUT,checkout.bonus.feature2.description,Feature 2 description,Checkout,"That's 2 months completely free, automatically applied to your purchase","Dat zijn 2 maanden helemaal gratis, automatisch toegepast op je aankoop",Savings explanation
+CHECKOUT,checkout.bonus.applied,Bonus applied label,Checkout,2 months free bonus applied,2 maanden gratis bonus toegepast,Confirmation
+CHECKOUT,checkout.bonus.value,Bonus value saved,Checkout,-€{amount},-€{amount},Discount shown
+CONTACT,contact.title,Page heading,Contact Us,Get in Touch,Neem Contact Op,Page title
+CONTACT,contact.description,Page description,Contact Us,Have questions? We'd love to hear from you.,Heb je vragen? We horen graag van je.,Intro text
+CONTACT,contact.email.label,Email field,Contact Us,Your email,Je e-mailadres,Form field
+CONTACT,contact.subject.label,Subject field,Contact Us,Subject,Onderwerp,Form field
+CONTACT,contact.message.label,Message field,Contact Us,Message,Bericht,Form field
+CONTACT,contact.submit,Submit button,Contact Us,Send Message,Verstuur Bericht,Action button
+HELP,help.title,Page heading,Help Center,How can we help you?,Hoe kunnen we je helpen?,Page title
+HELP,help.search.placeholder,Search placeholder,Help Center,Search for help...,Zoek naar hulp...,Search input
+HELP,help.categories.title,Categories heading,Help Center,Browse by category,Bladeren per categorie,Section title
+SMART DEVICES,devices.title,Page heading,Smart Devices,Compatible Smart Devices,Compatibele Slimme Apparaten,Page title
+SMART DEVICES,devices.subtitle,Page subtitle,Smart Devices,"Enhance your monitoring with optional smart devices. Not required, but adds reliability.","Verbeter je monitoring met optionele slimme apparaten. Niet verplicht, maar voegt betrouwbaarheid toe.",Value proposition
+TERMS,terms.title,Page heading,Terms of Service,Terms of Service,Gebruiksvoorwaarden,Legal page title
+TERMS,terms.lastupdated,Last updated label,Terms of Service,Last updated: {date},Laatst bijgewerkt: {date},Timestamp
+PRIVACY POLICY,privacypolicy.title,Page heading,Privacy Policy,Privacy Policy,Privacybeleid,Legal page title
+PRIVACY POLICY,privacypolicy.lastupdated,Last updated label,Privacy Policy,Last updated: {date},Laatst bijgewerkt: {date},Timestamp
+SECURITY,security.title,Page heading,Security,Security & Data Protection,Beveiliging & Databescherming,Page title
+SECURITY,security.description,Page description,Security,Your security and privacy are our top priorities,Jouw veiligheid en privacy zijn onze topprioriteiten,Intro text

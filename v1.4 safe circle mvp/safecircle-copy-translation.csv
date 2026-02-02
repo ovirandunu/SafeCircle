@@ -1,0 +1,142 @@
+Section,Key,Context,English,Dutch,Notes
+Hero,hero.title,Main heading on hero section,Daily reassurance on autopilot,,Keep it punchy and emotional
+Hero,hero.subtitle,Subtitle below main heading,"SafeCircle gives you safety without surveillance. Peace of mind for you and your loved ones, without compromising your independence or privacy.",,Core value proposition
+Hero,hero.cta.primary,Primary call-to-action button,Get Started,,Action button - keep short
+Hero,hero.cta.secondary,Secondary call-to-action button,Why SafeCircle,,Links to problem section
+Hero,hero.image.alt,Alt text for hero image,Woman reading book alone at home,,For accessibility
+Problem,problem.title,Section heading,I don't want to be unnoticed if something goes wrong,,First-person perspective - emotional
+Problem,problem.bullet1.strong,First bullet - bold text,Living alone means there's no one nearby to notice,,Emphasize the problem
+Problem,problem.bullet1.regular,First bullet - regular text,"if I fall, get sick, or have an emergency. It could take a long time before anyone realizes something is wrong.",,Complete the sentence
+Problem,problem.bullet2.strong,Second bullet - bold text,"My loved ones and I are often busy,",,Relatable situation
+Problem,problem.bullet2.regular,Second bullet - regular text,"and daily phone calls or texts are not always realistic. But I do want them to know if I go silent for too long.",,Balance independence with safety
+Problem,problem.bullet3.strong,Third bullet - bold text,I value my privacy and don't want surveillance.,,Key differentiator
+Problem,problem.bullet3.regular,Third bullet - regular text,"I want help to be available if needed, but I don't want cameras, constant tracking, or anyone watching what I do day-to-day.",,Privacy emphasis
+Problem,problem.closing,Closing statement - italic,"SafeCircle gives you safety without surveillance—peace of mind for you and your loved ones, without compromising your independence or privacy.",,Reinforces value proposition
+How It Works,howitworks.title,Section heading,Simple. Private. In your control.,,Three-part promise
+How It Works,howitworks.subtitle,Section subtitle,"By default, SafeCircle only uses your smartphone. It collects the minimum information needed to let your loved ones know that everything seems fine. No buttons to press, no devices to remember.",,Explains simplicity
+How It Works,howitworks.feature1.title,First feature heading,Maximum reassurance with minimal data collection,,Privacy-first approach
+How It Works,howitworks.feature1.description,First feature description,"No cameras, no audio, no surveillance. Only simple activity signals like unlocking your phone, less data than most apps collect. Or share nothing at all and use push notifications only.",,Emphasize what's NOT collected
+How It Works,howitworks.feature1.alt,First screenshot alt text,Privacy-first monitoring screen,,For accessibility
+How It Works,howitworks.feature2.title,Second feature heading,Your loved ones get the right information at the right time,,Adaptive sharing
+How It Works,howitworks.feature2.description,Second feature description,"When all is well, contacts who have installed the app see simple confirmation. If something seems off, they can get helpful details like last activity or location via the app, WhatsApp, SMS, or email. You control what's shared and when.",,Explains information flow
+How It Works,howitworks.feature2.alt,Second screenshot alt text,Adaptive information sharing screen,,For accessibility
+How It Works,howitworks.feature3.title,Third feature heading,Full control over how monitoring works for you,,User empowerment
+How It Works,howitworks.feature3.description,Third feature description,"Pause monitoring anytime. Choose how long before alerts are sent. Or use push-notification-only mode to confirm you're okay without sharing data.",,Control and flexibility
+How It Works,howitworks.feature3.alt,Third screenshot alt text,Monitoring control settings screen,,For accessibility
+How It Works,howitworks.selling1.title,First selling point title,Smartphone-only monitoring,,Key benefit
+How It Works,howitworks.selling1.description,First selling point description,Quietly tracks patterns of activity on your phone. No extra devices needed.,,Emphasize simplicity
+How It Works,howitworks.selling2.title,Second selling point title,Optional devices for reliability,,Flexibility message
+How It Works,howitworks.selling2.description,Second selling point description,"Connect smart lights or sensors to make monitoring more robust, but it's never required.",,Optional enhancement
+How It Works,howitworks.selling3.title,Third selling point title,Minimal data collection,,Privacy emphasis
+How It Works,howitworks.selling3.description,Third selling point description,Only the signals that something is normal or unusual. Never what you are doing or who you are talking to.,,What's NOT collected
+How It Works,howitworks.expandable.button.show,Button to show expandable content,What do we mean with monitoring?,,Question format
+How It Works,howitworks.expandable.button.hide,Button to hide expandable content,Hide details,,Action text
+How It Works,howitworks.expandable.section1.title,Expandable content - first section title,We collect the minimum information needed,,Transparency
+How It Works,howitworks.expandable.section1.p1,Expandable content - paragraph 1,"SafeCircle monitors simple activity signals—like when you unlock your phone, turn on a light, or interact with connected devices. We don't record what you're doing, who you're talking to, or what's on your screen.",,Explain activity signals
+How It Works,howitworks.expandable.section1.p2,Expandable content - paragraph 2,"Think of it like a motion sensor in a room: it knows someone is present and active, but nothing about what they're actually doing. That's all SafeCircle needs to know you're going about your normal routine.",,Helpful analogy
+How It Works,howitworks.expandable.section1.p3,Expandable content - paragraph 3,"We use these signals to learn your typical daily patterns—when you're usually active, when you typically rest. If that pattern continues normally, your trusted contacts see a simple ""all is well"" confirmation. If the pattern breaks unexpectedly, they're notified.",,How it works
+How It Works,howitworks.expandable.section2.title,Expandable content - second section title,Monitoring vs. Surveillance,,Key distinction
+How It Works,howitworks.expandable.section2.surveillance.title,Surveillance explanation title,Surveillance tracks what you do:,,Italic emphasis on 'what'
+How It Works,howitworks.expandable.section2.surveillance.text,Surveillance explanation,"Cameras watching you, GPS tracking your exact location, recording conversations, logging websites you visit, or monitoring who you communicate with. It's invasive and creates a detailed record of your life.",,What we DON'T do
+How It Works,howitworks.expandable.section2.safecircle.title,SafeCircle explanation title,SafeCircle monitors that you're active:,,Italic emphasis on 'that'
+How It Works,howitworks.expandable.section2.safecircle.text,SafeCircle explanation,"Simple signals that indicate activity is happening—nothing about what that activity is. No cameras, no audio, no detailed tracking. Just enough to know your routine continues normally, or when it doesn't.",,What we DO
+How It Works,howitworks.expandable.section2.keydifference,Key difference callout box,"The key difference: Surveillance tells someone everything about your life. SafeCircle only signals whether your routine seems normal or if something might be wrong—giving you privacy while still providing reassurance.",,Bold 'The key difference:'
+Trusted Contacts,trustedcontacts.title,Section heading,Peace of mind for those who care about you,,Contacts perspective
+Trusted Contacts,trustedcontacts.subtitle,Section subtitle,"Your trusted contacts stay informed without being intrusive. They see just what they need to know, when they need to know it.",,Balance of information
+Trusted Contacts,trustedcontacts.state1.title,First state heading,When all is well,,Positive state
+Trusted Contacts,trustedcontacts.state1.description,First state description,"Your loved ones see a simple confirmation that you're active and going about your day. No details, no notifications—just quiet reassurance that everything is normal.",,Low friction
+Trusted Contacts,trustedcontacts.state1.alt,First screenshot alt text,All is well contact view,,For accessibility
+Trusted Contacts,trustedcontacts.state2.title,Second state heading,If concern arises,,Alert state
+Trusted Contacts,trustedcontacts.state2.description,Second state description,"When something seems off, your contacts receive an alert with helpful context based on your privacy settings—like when you were last active or your location. They can reach out directly to check in or take action if needed.",,Actionable information
+Trusted Contacts,trustedcontacts.state2.alt,Second screenshot alt text,Concern state contact view,,For accessibility
+Why It Matters,whyitmatters.title,Section heading,Effortless reassurance,,Key benefit
+Why It Matters,whyitmatters.subtitle,Section subtitle,"Many people put off organizing or sharing health and safety info. SafeCircle lowers the threshold: it's easy to set up, runs on autopilot, and ensures loved ones know you're okay without pressure or surveillance.",,Removes friction
+Why It Matters,whyitmatters.perfectfor.title,Subsection heading,It's perfect for:,,List introduction
+Why It Matters,whyitmatters.perfectfor.item1,First perfect-for item,Adults living alone who want independence and safety without wearing devices like emergency buttons or smartwatches,,Target audience 1
+Why It Matters,whyitmatters.perfectfor.item2,Second perfect-for item,Loved ones who want reassurance but lack time for frequent check-ins or worry about being intrusive,,Target audience 2
+Why It Matters,whyitmatters.howitworks.title,How it works subsection heading,How it works,,Process explanation
+Why It Matters,whyitmatters.howitworks.step1,First step,"SafeCircle learns your normal daily patterns using your phone and any smart devices you already have. It observes that activity is happening during your typical routine. Not what you're doing or where you are. SafeCircle uses minimal data collection, less than many popular apps.",,Pattern learning
+Why It Matters,whyitmatters.howitworks.step2,Second step,"Each day, when your activity matches your normal pattern, SafeCircle automatically marks you as checked in. If your trusted contacts have installed the app, they see quiet confirmation that you're going about your day. If not, no news is good news.",,Automatic check-in
+Why It Matters,whyitmatters.howitworks.step3,Third step,"If your routine changes significantly (for example, no activity is detected for an unusual length of time) SafeCircle waits a period you decide, then alerts your trusted contacts via the app, SMS, WhatsApp, or email. They can reach out to you directly.",,Alert mechanism
+Why It Matters,whyitmatters.howitworks.step4,Fourth step,"You can manually check in anytime, adjust your settings, or pause monitoring when you're traveling or your schedule changes.",,Flexibility
+Why It Matters,whyitmatters.whatitisnot.title,What this is not - section heading,What this is not,,Set expectations
+Why It Matters,whyitmatters.whatitisnot.item1.title,Not emergency services title,Not emergency services.,,Bold title
+Why It Matters,whyitmatters.whatitisnot.item1.text,Not emergency services text,"SafeCircle alerts your contacts, not 911. It's designed for peace of mind, not crisis response.",,Clarify scope
+Why It Matters,whyitmatters.whatitisnot.item2.title,Not medical monitoring title,Not medical monitoring.,,Bold title
+Why It Matters,whyitmatters.whatitisnot.item2.text,Not medical monitoring text,"It doesn't track health metrics, fall detection, or vital signs. It observes general activity patterns only.",,Clarify scope
+Why It Matters,whyitmatters.whatitisnot.item3.title,Not surveillance title,Not surveillance.,,Bold title
+Why It Matters,whyitmatters.whatitisnot.item3.text,Not surveillance text,"No cameras, no constant tracking, no recording of what you're doing. Just pattern recognition from devices you already use.",,Privacy reassurance
+Pricing,pricing.title,Section heading,Peace of mind your way,,Flexibility message
+Pricing,pricing.subtitle,Section subtitle,All plans come with a 14-day money-back guarantee. Cancel anytime.,,Risk-free promise
+Pricing,pricing.toggle.monthly,Billing toggle - monthly option,Monthly,,Billing frequency
+Pricing,pricing.toggle.yearly,Billing toggle - yearly option,Yearly,,Billing frequency
+Pricing,pricing.toggle.save,Save badge on yearly toggle,Save 20%,,Discount indicator
+Pricing,pricing.basic.name,Basic plan name,Basic,,Plan tier
+Pricing,pricing.basic.description,Basic plan description,Smartphone monitoring. Automatic alerts when your routine breaks. Peace of mind without surveillance.,,Plan summary
+Pricing,pricing.basic.feature1,Basic plan - first feature,Daily reassurance for you and loved ones,,Feature title
+Pricing,pricing.basic.feature1.outcome,Basic plan - first feature outcome,peace of mind for everyone,,Italic outcome text
+Pricing,pricing.basic.feature2,Basic plan - second feature,Smart alert notifications,,Feature title
+Pricing,pricing.basic.feature2.outcome,Basic plan - second feature outcome,alerts only when needed,,Italic outcome text
+Pricing,pricing.basic.feature3,Basic plan - third feature,Trusted contact dashboard,,Feature title
+Pricing,pricing.basic.feature3.outcome,Basic plan - third feature outcome,quiet confirmation you're okay,,Italic outcome text
+Pricing,pricing.basic.feature4,Basic plan - fourth feature,Privacy-first design,,Feature title
+Pricing,pricing.basic.feature4.outcome,Basic plan - fourth feature outcome,minimal data collection,,Italic outcome text
+Pricing,pricing.full.name,Full plan name,Full,,Plan tier
+Pricing,pricing.full.description,Full plan description,Optional devices,,Plan summary
+Pricing,pricing.full.badge,Most popular badge,MOST POPULAR,,Plan popularity indicator
+Pricing,pricing.full.feature1,Full plan - first feature,Everything in Basic,,Feature title
+Pricing,pricing.full.feature1.outcome,Full plan - first feature outcome,all core features included,,Italic outcome text
+Pricing,pricing.full.feature2,Full plan - second feature,Smart device integration,,Feature title
+Pricing,pricing.full.feature2.outcome,Full plan - second feature outcome,"works with lights, locks, and more",,Italic outcome text
+Pricing,pricing.full.feature3,Full plan - third feature,Enhanced monitoring,,Feature title
+Pricing,pricing.full.feature3.outcome,Full plan - third feature outcome,more accurate activity patterns,,Italic outcome text
+Pricing,pricing.full.feature4,Full plan - fourth feature,Priority support,,Feature title
+Pricing,pricing.full.feature4.outcome,Full plan - fourth feature outcome,fast help when needed,,Italic outcome text
+Pricing,pricing.permonth,Price unit,/month,,Pricing suffix
+Pricing,pricing.yearly.savings,Yearly savings text,€{yearlyTotal}/year - Save 20%,,Shows annual cost and savings
+Pricing,pricing.cta,Plan CTA button,Get Started,,Action button
+Privacy & Security,privacy.title,Section heading,We respect your privacy,,Core value
+Privacy & Security,privacy.card1.title,First card title,No surveillance,,Key promise
+Privacy & Security,privacy.card1.description,First card description,"No cameras, no audio, no constant tracking. SafeCircle observes simple activity patterns only, nothing personal or invasive.",,What we don't do
+Privacy & Security,privacy.card2.title,Second card title,You control what's shared,,User control
+Privacy & Security,privacy.card2.description,Second card description,"Choose exactly what each trusted contact can see. Optionally share helpful information like location only when an alert is triggered.",,Granular control
+Privacy & Security,privacy.card3.title,Third card title,Information is encrypted and secure,,Security promise
+Privacy & Security,privacy.card3.description,Third card description,"Bank-level encryption protects everything. Only people you explicitly authorize can see what you've chosen to share.",,Technical security
+Privacy & Security,privacy.card4.title,Fourth card title,Maximum privacy mode available,,Extra privacy option
+Privacy & Security,privacy.card4.description,Fourth card description,"Want even less data shared? Use push-notification-only mode: No activity data, just simple check-ins you confirm yourself.",,Ultimate privacy mode
+FAQ,faq.title,Section heading,Common questions,,Q&A section
+FAQ,faq.q1.question,First FAQ question,Will I need to remember to check in daily?,,Common concern
+FAQ,faq.q1.answer,First FAQ answer,"No. SafeCircle works passively in the background. There are no buttons to press, no daily tasks, and nothing to remember.",,Reassurance
+FAQ,faq.q2.question,Second FAQ question,How is my information protected?,,Security concern
+FAQ,faq.q2.answer,Second FAQ answer,"Your data is encrypted with bank-level security. You control exactly who can access what, and when. Your information is never shared without your permission.",,Security details
+FAQ,faq.q3.question,Third FAQ question,Do my trusted contacts need to install the app?,,Technical question
+FAQ,faq.q3.answer,Third FAQ answer,"No. Your trusted contacts can receive alerts via SMS, WhatsApp, or email. Installing the app gives them access to a dashboard for reassurance, but it's completely optional.",,Flexibility
+FAQ,faq.q4.question,Fourth FAQ question,What if I go on vacation or change my routine?,,Lifestyle question
+FAQ,faq.q4.answer,Fourth FAQ answer,"You can easily pause monitoring or adjust your routine settings anytime. SafeCircle adapts to your life, not the other way around.",,Adaptability
+FAQ,faq.q5.question,Fifth FAQ question,How does the 14-day money-back guarantee work?,,Purchase concern
+FAQ,faq.q5.answer,Fifth FAQ answer,"Try SafeCircle risk-free for 14 days. If you're not satisfied for any reason, simply cancel your subscription in the app within 14 days of your purchase and you'll automatically receive a full refund—no questions asked, no need to contact us.",,Money-back guarantee details
+Final CTA,finalcta.title,Section heading,"Live independently, stay prepared",,Closing message
+Final CTA,finalcta.subtitle,Section subtitle,Join SafeCircle today. 14-day money-back guarantee.,,Call to action
+Final CTA,finalcta.button,Primary button,Get Started,,Action button
+Navigation,nav.brand,Header logo text,SafeCircle,,Brand name
+Navigation,nav.why,Navigation menu item,Why SafeCircle,,Links to problem section
+Navigation,nav.howitworks,Navigation menu item,How it works,,Links to how-it-works section
+Navigation,nav.pricing,Navigation menu item,Pricing,,Links to pricing section
+Navigation,nav.privacy,Navigation menu item,Privacy & Security,,Links to privacy section
+Navigation,nav.cta,Header CTA button,Get started,,Action button
+Footer,footer.tagline,Footer tagline,Peace of mind for independent living.,,Brand promise
+Footer,footer.product.heading,Footer column heading - Product,Product,,Section title
+Footer,footer.product.why,Footer link,Why SafeCircle,,Links to features
+Footer,footer.product.pricing,Footer link,Pricing & What's Included,,Links to pricing
+Footer,footer.product.privacy,Footer link,Privacy & Security,,Links to privacy
+Footer,footer.product.devices,Footer link,Smart Devices,,Links to devices page
+Footer,footer.support.heading,Footer column heading - Support,Support,,Section title
+Footer,footer.support.help,Footer link,Help Center,,Links to help
+Footer,footer.support.contact,Footer link,Contact Us,,Links to contact
+Footer,footer.legal.heading,Footer column heading - Legal,Legal,,Section title
+Footer,footer.legal.privacy,Footer link,Privacy Policy,,Links to privacy policy
+Footer,footer.legal.terms,Footer link,Terms of Service,,Links to terms
+Footer,footer.legal.security,Footer link,Security,,Links to security info
+Footer,footer.legal.screenshots,Footer link,App Screenshots,,Links to screenshots
+Footer,footer.legal.design,Footer link,Design System,,Links to design system
+Footer,footer.copyright,Copyright text,© 2025 SafeCircle. All rights reserved.,,Legal text

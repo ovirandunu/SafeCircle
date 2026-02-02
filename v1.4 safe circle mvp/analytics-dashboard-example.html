@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SafeCircle Analytics Dashboard</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #f5f5f5;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 30px;
+      color: #323232;
+    }
+
+    .metrics-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-bottom: 40px;
+    }
+
+    .metric-card {
+      background: white;
+      border: 2px solid #323232;
+      border-radius: 12px;
+      padding: 24px;
+    }
+
+    .metric-card h3 {
+      font-size: 14px;
+      color: #838383;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+
+    .metric-card .value {
+      font-size: 36px;
+      font-weight: bold;
+      color: #323232;
+      margin-bottom: 4px;
+    }
+
+    .metric-card .change {
+      font-size: 14px;
+      color: #838383;
+    }
+
+    .metric-card .change.positive {
+      color: #22c55e;
+    }
+
+    .metric-card .change.negative {
+      color: #ef4444;
+    }
+
+    .funnel {
+      background: white;
+      border: 2px solid #323232;
+      border-radius: 12px;
+      padding: 32px;
+      margin-bottom: 40px;
+    }
+
+    .funnel h2 {
+      font-size: 24px;
+      margin-bottom: 24px;
+      color: #323232;
+    }
+
+    .funnel-step {
+      display: flex;
+      align-items: center;
+      margin-bottom: 16px;
+      padding: 16px;
+      background: #f5f5f5;
+      border-radius: 8px;
+      position: relative;
+    }
+
+    .funnel-step-bar {
+      height: 40px;
+      background: linear-gradient(90deg, #f8918a, #f9675d);
+      border-radius: 6px;
+      margin-right: 16px;
+      transition: width 0.3s ease;
+    }
+
+    .funnel-step-label {
+      flex: 0 0 200px;
+      font-weight: 600;
+      color: #323232;
+    }
+
+    .funnel-step-count {
+      font-size: 24px;
+      font-weight: bold;
+      color: #323232;
+      margin-right: 12px;
+    }
+
+    .funnel-step-percent {
+      font-size: 14px;
+      color: #838383;
+    }
+
+    .table {
+      background: white;
+      border: 2px solid #323232;
+      border-radius: 12px;
+      padding: 32px;
+      overflow-x: auto;
+    }
+
+    .table h2 {
+      font-size: 24px;
+      margin-bottom: 24px;
+      color: #323232;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th {
+      text-align: left;
+      padding: 12px;
+      border-bottom: 2px solid #323232;
+      font-weight: 600;
+      color: #323232;
+    }
+
+    td {
+      padding: 12px;
+      border-bottom: 1px solid #e5e5e5;
+      color: #323232;
+    }
+
+    tr:hover {
+      background: #f5f5f5;
+    }
+
+    .refresh-btn {
+      background: #f8918a;
+      color: white;
+      border: 2px solid #f8918a;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      margin-bottom: 20px;
+    }
+
+    .refresh-btn:hover {
+      background: #f9675d;
+      border-color: #f9675d;
+    }
+
+    .last-updated {
+      color: #838383;
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>📊 SafeCircle Analytics Dashboard</h1>
+    
+    <button class="refresh-btn" onclick="loadData()">🔄 Refresh Data</button>
+    <div class="last-updated" id="lastUpdated">Last updated: Never</div>
+
+    <!-- Key Metrics -->
+    <div class="metrics-grid">
+      <div class="metric-card">
+        <h3>Total Visitors</h3>
+        <div class="value" id="totalVisitors">0</div>
+        <div class="change" id="visitorsChange">Loading...</div>
+      </div>
+
+      <div class="metric-card">
+        <h3>Checkout Started</h3>
+        <div class="value" id="checkoutStarted">0</div>
+        <div class="change" id="checkoutRate">0% of visitors</div>
+      </div>
+
+      <div class="metric-card">
+        <h3>Email Captured</h3>
+        <div class="value" id="emailCaptured">0</div>
+        <div class="change" id="emailRate">0% of checkouts</div>
+      </div>
+
+      <div class="metric-card">
+        <h3>Conversions</h3>
+        <div class="value" id="conversions">0</div>
+        <div class="change" id="conversionRate">0% conversion rate</div>
+      </div>
+
+      <div class="metric-card">
+        <h3>Total Revenue</h3>
+        <div class="value" id="totalRevenue">€0</div>
+        <div class="change" id="aov">€0 avg order</div>
+      </div>
+
+      <div class="metric-card">
+        <h3>Payment Success Rate</h3>
+        <div class="value" id="paymentSuccess">0%</div>
+        <div class="change">of payment attempts</div>
+      </div>
+    </div>
+
+    <!-- Funnel Visualization -->
+    <div class="funnel">
+      <h2>Conversion Funnel</h2>
+      <div id="funnelContainer">
+        <!-- Funnel steps will be inserted here -->
+      </div>
+    </div>
+
+    <!-- Plan Preferences -->
+    <div class="table">
+      <h2>Plan Preferences</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Plan</th>
+            <th>Selections</th>
+            <th>Percentage</th>
+            <th>Conversions</th>
+            <th>Revenue</th>
+          </tr>
+        </thead>
+        <tbody id="planTable">
+          <tr>
+            <td colspan="5">Loading...</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <br>
+
+    <!-- Traffic Sources -->
+    <div class="table">
+      <h2>Traffic Sources</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Source</th>
+            <th>Visitors</th>
+            <th>Checkout Rate</th>
+            <th>Conversion Rate</th>
+          </tr>
+        </thead>
+        <tbody id="trafficTable">
+          <tr>
+            <td colspan="4">Loading...</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script>
+    // Configuration
+    const API_URL = 'http://localhost:3001/api/analytics/funnel'; // Change to your server
+
+    // Load and display data
+    async function loadData() {
+      try {
+        const response = await fetch(API_URL);
+        const data = await response.json();
+        
+        // Update key metrics
+        document.getElementById('totalVisitors').textContent = data.totalVisitors.toLocaleString();
+        document.getElementById('checkoutStarted').textContent = data.checkoutStarted.toLocaleString();
+        document.getElementById('emailCaptured').textContent = data.emailSubmitted.toLocaleString();
+        document.getElementById('conversions').textContent = data.conversions.toLocaleString();
+        
+        // Calculate rates
+        const checkoutRate = ((data.checkoutStarted / data.totalVisitors) * 100).toFixed(1);
+        const emailRate = ((data.emailSubmitted / data.checkoutStarted) * 100).toFixed(1);
+        const conversionRate = ((data.conversions / data.totalVisitors) * 100).toFixed(2);
+        const paymentSuccessRate = ((data.conversions / data.paymentAttempted) * 100).toFixed(1);
+        
+        document.getElementById('checkoutRate').textContent = `${checkoutRate}% of visitors`;
+        document.getElementById('emailRate').textContent = `${emailRate}% of checkouts`;
+        document.getElementById('conversionRate').textContent = `${conversionRate}% conversion rate`;
+        document.getElementById('paymentSuccess').textContent = `${paymentSuccessRate}%`;
+        
+        // Mock revenue data (replace with real data from your API)
+        const mockRevenue = data.conversions * 48; // Assuming avg €48
+        const mockAOV = data.conversions > 0 ? mockRevenue / data.conversions : 0;
+        document.getElementById('totalRevenue').textContent = `€${mockRevenue.toLocaleString()}`;
+        document.getElementById('aov').textContent = `€${mockAOV.toFixed(2)} avg order`;
+        
+        // Build funnel visualization
+        buildFunnel(data);
+        
+        // Update last updated time
+        document.getElementById('lastUpdated').textContent = `Last updated: ${new Date().toLocaleString()}`;
+        
+      } catch (error) {
+        console.error('Failed to load analytics data:', error);
+        alert('Failed to load analytics data. Make sure your tracking server is running on ' + API_URL);
+      }
+    }
+
+    // Build funnel visualization
+    function buildFunnel(data) {
+      const funnelSteps = [
+        { label: 'Visitors', count: data.totalVisitors, percent: 100 },
+        { label: 'Checkout Started', count: data.checkoutStarted, percent: (data.checkoutStarted / data.totalVisitors * 100) },
+        { label: 'Email Submitted', count: data.emailSubmitted, percent: (data.emailSubmitted / data.totalVisitors * 100) },
+        { label: 'Payment Attempted', count: data.paymentAttempted, percent: (data.paymentAttempted / data.totalVisitors * 100) },
+        { label: 'Conversions', count: data.conversions, percent: (data.conversions / data.totalVisitors * 100) }
+      ];
+
+      const container = document.getElementById('funnelContainer');
+      container.innerHTML = '';
+
+      funnelSteps.forEach((step, index) => {
+        const stepEl = document.createElement('div');
+        stepEl.className = 'funnel-step';
+        
+        const barWidth = step.percent;
+        const dropoffPercent = index > 0 
+          ? ((funnelSteps[index - 1].count - step.count) / funnelSteps[index - 1].count * 100).toFixed(1)
+          : 0;
+
+        stepEl.innerHTML = `
+          <div class="funnel-step-bar" style="width: ${barWidth}%; max-width: calc(100% - 400px);"></div>
+          <div class="funnel-step-label">${step.label}</div>
+          <div class="funnel-step-count">${step.count.toLocaleString()}</div>
+          <div class="funnel-step-percent">
+            ${step.percent.toFixed(1)}%
+            ${index > 0 ? `<span style="color: #ef4444;">(${dropoffPercent}% drop)</span>` : ''}
+          </div>
+        `;
+        
+        container.appendChild(stepEl);
+      });
+    }
+
+    // Load data on page load
+    loadData();
+
+    // Auto-refresh every 30 seconds
+    setInterval(loadData, 30000);
+  </script>
+</body>
+</html>
