@@ -1,7 +1,8 @@
 'use client';
-
 import { HeartPulse } from 'lucide-react';
-const heroImage = '/images/placeholder.png';
+import { getFigmaAsset } from '@/lib/figma-assets';
+
+const heroImage = getFigmaAsset('85986970382cf0787f06862b543e8b8721cd944f');
 
 function smoothScrollTo(sectionId: string) {
   const element = document.getElementById(sectionId);

@@ -1,8 +1,7 @@
 'use client';
 
-import { useRouter } from 'next/navigation';
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
+import { useRouter, usePathname } from 'next/navigation';
 import { useTranslation } from 'react-i18next';
 import svgPaths from '@/components/imports/svg-0o41b6lr74';
 
@@ -17,8 +16,11 @@ export default function Footer() {
     if (pathname === '/worry-about-someone') return '/worry-about-someone';
     
     // Otherwise check localStorage
-    const savedAudience = localStorage.getItem('audienceChoice');
-    return savedAudience ? `/${savedAudience}` : '/live-alone'; // Default to live-alone
+    if (typeof window !== 'undefined') {
+      const savedAudience = localStorage.getItem('audienceChoice');
+      return savedAudience ? `/${savedAudience}` : '/live-alone';
+    }
+    return '/live-alone'; // Default to live-alone
   };
 
   // Helper function to get the correct route based on language
@@ -115,7 +117,8 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <Link href={getLocalizedRoute('/smart-devices')}
+                <Link 
+                  href={getLocalizedRoute('/smart-devices')}
                   onClick={() => handlePageLink(getLocalizedRoute('/smart-devices'))}
                   className="font-['Open_Sans:Regular',sans-serif] text-[13px] sm:text-[14px] text-[#fff5f0] hover:text-white" 
                   style={{ fontVariationSettings: "'wdth' 100" }}
@@ -130,7 +133,8 @@ export default function Footer() {
             <h4 className="font-['Open_Sans:Bold',sans-serif] text-[15px] sm:text-[16px] mb-3 sm:mb-4 lg:mb-[16px]" style={{ fontVariationSettings: "'wdth' 100" }}>{t('footer.support.heading')}</h4>
             <ul className="space-y-2 sm:space-y-3 lg:space-y-[12px]">
               <li>
-                <Link href={getLocalizedRoute('/help-center')}
+                <Link 
+                  href={getLocalizedRoute('/help-center')}
                   onClick={() => handlePageLink(getLocalizedRoute('/help-center'))}
                   className="font-['Open_Sans:Regular',sans-serif] text-[13px] sm:text-[14px] text-[#fff5f0] hover:text-white" 
                   style={{ fontVariationSettings: "'wdth' 100" }}
@@ -139,7 +143,8 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/contact" 
+                <Link 
+                  href="/contact" 
                   onClick={() => handlePageLink('/contact')}
                   className="font-['Open_Sans:Regular',sans-serif] text-[13px] sm:text-[14px] text-[#fff5f0] hover:text-white" 
                   style={{ fontVariationSettings: "'wdth' 100" }}
@@ -154,7 +159,8 @@ export default function Footer() {
             <h4 className="font-['Open_Sans:Bold',sans-serif] text-[15px] sm:text-[16px] mb-3 sm:mb-4 lg:mb-[16px]" style={{ fontVariationSettings: "'wdth' 100" }}>{t('footer.legal.heading')}</h4>
             <ul className="space-y-2 sm:space-y-3 lg:space-y-[12px]">
               <li>
-                <Link href={getLocalizedRoute('/privacy')}
+                <Link 
+                  href={getLocalizedRoute('/privacy')}
                   onClick={() => handlePageLink(getLocalizedRoute('/privacy'))}
                   className="font-['Open_Sans:Regular',sans-serif] text-[13px] sm:text-[14px] text-[#fff5f0] hover:text-white" 
                   style={{ fontVariationSettings: "'wdth' 100" }}
@@ -163,7 +169,8 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href={getLocalizedRoute('/terms')}
+                <Link 
+                  href={getLocalizedRoute('/terms')}
                   onClick={() => handlePageLink(getLocalizedRoute('/terms'))}
                   className="font-['Open_Sans:Regular',sans-serif] text-[13px] sm:text-[14px] text-[#fff5f0] hover:text-white" 
                   style={{ fontVariationSettings: "'wdth' 100" }}
@@ -172,7 +179,8 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href={getLocalizedRoute('/security')}
+                <Link 
+                  href={getLocalizedRoute('/security')}
                   onClick={() => handlePageLink(getLocalizedRoute('/security'))}
                   className="font-['Open_Sans:Regular',sans-serif] text-[13px] sm:text-[14px] text-[#fff5f0] hover:text-white" 
                   style={{ fontVariationSettings: "'wdth' 100" }}

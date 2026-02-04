@@ -21,14 +21,28 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 
 // Initialize Stripe
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
+const stripe = new Stripe(process.env.STRIPE_SECRET_KEY, {
   apiVersion: '2024-11-20.acacia',
 });
 
 // Initialize PostgreSQL
-const pool = new Pool({
-  connectionString: process.env.DATABASE_URL,
-});
+let pool;
+try {
+  pool = new Pool({
+    connectionString: process.env.DATABASE_URL,
+    ssl: {
+      rejectUnauthorized: false
+    }
+  });
+  // Test connection
+  pool.query('SELECT NOW()').catch(err => {
+    console.warn('⚠️  Database connection failed:', err.message);
+    console.warn('⚠️  Running in no-database mode - data will not persist');
+  });
+} catch (err) {
+  console.warn('⚠️  Database initialization failed:', err.message);
+  console.warn('⚠️  Running in no-database mode - data will not persist');
+}
 
 // Middleware
 app.use(cors({
@@ -66,10 +80,10 @@ app.post('/api/checkout/create-session', async (req, res) => {
 
     // Get the correct price ID based on plan and billing period
     const priceMap: Record<string, string> = {
-      'basic_monthly': process.env.STRIPE_PRICE_BASIC_MONTHLY!,
-      'basic_yearly': process.env.STRIPE_PRICE_BASIC_YEARLY!,
-      'full_monthly': process.env.STRIPE_PRICE_FULL_MONTHLY!,
-      'full_yearly': process.env.STRIPE_PRICE_FULL_YEARLY!,
+      'basic_monthly': process.env.STRIPE_PRICE_BASIC_MONTHLY,
+      'basic_yearly': process.env.STRIPE_PRICE_BASIC_YEARLY,
+      'full_monthly': process.env.STRIPE_PRICE_FULL_MONTHLY,
+      'full_yearly': process.env.STRIPE_PRICE_FULL_YEARLY,
     };
 
     const priceKey = `${plan}_${billingPeriod}`;
@@ -181,7 +195,7 @@ app.post('/api/webhooks/stripe', async (req, res) => {
     event = stripe.webhooks.constructEvent(
       req.body,
       sig,
-      process.env.STRIPE_WEBHOOK_SECRET!
+      process.env.STRIPE_WEBHOOK_SECRET
     );
   } catch (err: any) {
     console.error('Webhook signature verification failed:', err.message);
@@ -248,6 +262,10 @@ app.post('/api/webhooks/stripe', async (req, res) => {
 // ============================================
 
 async function saveSubscription(session: any) {
+  if (!pool) {
+    console.log('💾 [No-DB Mode] Would save subscription:', session.id);
+    return;
+  }
   const query = `
     INSERT INTO subscriptions (
       stripe_session_id,
@@ -281,6 +299,10 @@ async function saveSubscription(session: any) {
 }
 
 async function updateSubscription(subscription: any) {
+  if (!pool) {
+    console.log('💾 [No-DB Mode] Would update subscription:', subscription.id);
+    return;
+  }
   const query = `
     UPDATE subscriptions 
     SET status = $1, updated_at = NOW()
@@ -291,6 +313,10 @@ async function updateSubscription(subscription: any) {
 }
 
 async function cancelSubscription(subscription: any) {
+  if (!pool) {
+    console.log('💾 [No-DB Mode] Would cancel subscription:', subscription.id);
+    return;
+  }
   const query = `
     UPDATE subscriptions 
     SET status = 'canceled', canceled_at = NOW(), updated_at = NOW()
@@ -310,6 +336,11 @@ async function cancelSubscription(subscription: any) {
 app.post('/api/track', async (req, res) => {
   try {
     const { event, sessionId, data } = req.body;
+
+    if (!pool) {
+      console.log(`📊 [No-DB Mode] Tracked: ${event} (Session: ${sessionId})`);
+      return res.json({ success: true });
+    }
 
     const query = `
       INSERT INTO tracking_events (
@@ -336,6 +367,18 @@ app.post('/api/track', async (req, res) => {
  */
 app.get('/api/analytics/funnel', async (req, res) => {
   try {
+    if (!pool) {
+      return res.json({
+        total_visitors: 0,
+        clicked_plan: 0,
+        viewed_step_1: 0,
+        viewed_step_2: 0,
+        submitted_email: 0,
+        viewed_step_3: 0,
+        attempted_payment: 0,
+        completed_payment: 0
+      });
+    }
     const query = `
       SELECT 
         COUNT(DISTINCT CASE WHEN event = 'page_view' THEN session_id END) as total_visitors,
