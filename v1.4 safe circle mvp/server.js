@@ -79,7 +79,7 @@ app.post('/api/checkout/create-session', async (req, res) => {
     }
 
     // Get the correct price ID based on plan and billing period
-    const priceMap: Record<string, string> = {
+    const priceMap = {
       'basic_monthly': process.env.STRIPE_PRICE_BASIC_MONTHLY,
       'basic_yearly': process.env.STRIPE_PRICE_BASIC_YEARLY,
       'full_monthly': process.env.STRIPE_PRICE_FULL_MONTHLY,
@@ -119,7 +119,7 @@ app.post('/api/checkout/create-session', async (req, res) => {
     });
 
     res.json({ sessionId: session.id, url: session.url });
-  } catch (error: any) {
+  } catch (error) {
     console.error('Error creating checkout session:', error);
     res.status(500).json({ error: error.message });
   }
@@ -150,7 +150,7 @@ app.post('/api/checkout/create-payment-intent', async (req, res) => {
       clientSecret: paymentIntent.client_secret,
       paymentIntentId: paymentIntent.id,
     });
-  } catch (error: any) {
+  } catch (error) {
     console.error('Error creating payment intent:', error);
     res.status(500).json({ error: error.message });
   }
@@ -169,7 +169,7 @@ app.get('/api/checkout/session/:sessionId', async (req, res) => {
       customer_email: session.customer_email,
       amount_total: session.amount_total,
     });
-  } catch (error: any) {
+  } catch (error) {
     console.error('Error retrieving session:', error);
     res.status(500).json({ error: error.message });
   }
@@ -197,7 +197,7 @@ app.post('/api/webhooks/stripe', async (req, res) => {
       sig,
       process.env.STRIPE_WEBHOOK_SECRET
     );
-  } catch (err: any) {
+  } catch (err) {
     console.error('Webhook signature verification failed:', err.message);
     return res.status(400).send(`Webhook Error: ${err.message}`);
   }
@@ -251,7 +251,7 @@ app.post('/api/webhooks/stripe', async (req, res) => {
     }
 
     res.json({ received: true });
-  } catch (error: any) {
+  } catch (error) {
     console.error('Error processing webhook:', error);
     res.status(500).json({ error: 'Webhook processing failed' });
   }
@@ -261,7 +261,7 @@ app.post('/api/webhooks/stripe', async (req, res) => {
 // DATABASE FUNCTIONS
 // ============================================
 
-async function saveSubscription(session: any) {
+async function saveSubscription(session) {
   if (!pool) {
     console.log('💾 [No-DB Mode] Would save subscription:', session.id);
     return;
@@ -298,7 +298,7 @@ async function saveSubscription(session: any) {
   await pool.query(query, values);
 }
 
-async function updateSubscription(subscription: any) {
+async function updateSubscription(subscription) {
   if (!pool) {
     console.log('💾 [No-DB Mode] Would update subscription:', subscription.id);
     return;
@@ -312,7 +312,7 @@ async function updateSubscription(subscription: any) {
   await pool.query(query, [subscription.status, subscription.id]);
 }
 
-async function cancelSubscription(subscription: any) {
+async function cancelSubscription(subscription) {
   if (!pool) {
     console.log('💾 [No-DB Mode] Would cancel subscription:', subscription.id);
     return;
@@ -356,7 +356,7 @@ app.post('/api/track', async (req, res) => {
     console.log(`📊 Tracked: ${event} (Session: ${sessionId})`);
     
     res.json({ success: true });
-  } catch (error: any) {
+  } catch (error) {
     console.error('Error tracking event:', error);
     res.status(500).json({ error: error.message });
   }
@@ -394,7 +394,7 @@ app.get('/api/analytics/funnel', async (req, res) => {
 
     const result = await pool.query(query);
     res.json(result.rows[0]);
-  } catch (error: any) {
+  } catch (error) {
     console.error('Error getting funnel analytics:', error);
     res.status(500).json({ error: error.message });
   }

@@ -5,13 +5,13 @@ import { useTranslation } from 'react-i18next';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import MetaTags from '../components/MetaTags';
-import heroImage from 'figma:asset/4c71468f0e29aa1a294dedba837e800064e75011.png';
+import heroImage from '../../assets/4c71468f0e29aa1a294dedba837e800064e75011.png';
 import PricingSection from '../components/PricingSection';
-import privacySettingsImg from 'figma:asset/5281bbf7203d7edc283b0480d1a623279c50ec88.png';
-import appBehaviorImg from 'figma:asset/f100685f2e801659d2e2c586a55e2117b513f336.png';
-import mySafeCircleImg from 'figma:asset/54848f75f286af6996dc757a152776243a12d2f0.png';
-import allIsWellImg from 'figma:asset/3667e12d220b43d714201c3bab28d2ace16828f5.png';
-import concernImg from 'figma:asset/897b4259652ab58e6acffb492924a70bda70573e.png';
+import privacySettingsImg from '../../assets/5281bbf7203d7edc283b0480d1a623279c50ec88.png';
+import appBehaviorImg from '../../assets/f100685f2e801659d2e2c586a55e2117b513f336.png';
+import mySafeCircleImg from '../../assets/54848f75f286af6996dc757a152776243a12d2f0.png';
+import allIsWellImg from '../../assets/3667e12d220b43d714201c3bab28d2ace16828f5.png';
+import concernImg from '../../assets/897b4259652ab58e6acffb492924a70bda70573e.png';
 
 // Smooth scroll helper with ease-in-out
 function smoothScrollTo(targetId: string) {

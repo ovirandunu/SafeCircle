@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import MetaTags from '../components/MetaTags';
-import heroImage from 'figma:asset/85986970382cf0787f06862b543e8b8721cd944f.png';
-import PricingSection from '../components/PricingSection';
-import imgPlaceholder from 'figma:asset/ece298d0ec2c16f10310d45724b276a6035cb503.png';
+import heroImage from "../../assets/85986970382cf0787f06862b543e8b8721cd944f.png";
+import PricingSection from "../components/PricingSection";
+import imgPlaceholder from "../../assets/ece298d0ec2c16f10310d45724b276a6035cb503.png";
 
 // Smooth scroll helper
 function smoothScrollTo(targetId: string) {

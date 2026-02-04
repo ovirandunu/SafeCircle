@@ -1,5 +1,5 @@
 import { HeartPulse } from 'lucide-react';
-import heroImage from 'figma:asset/85986970382cf0787f06862b543e8b8721cd944f.png';
+import heroImage from '../../assets/85986970382cf0787f06862b543e8b8721cd944f.png';
 
 function smoothScrollTo(sectionId: string) {
   const element = document.getElementById(sectionId);
