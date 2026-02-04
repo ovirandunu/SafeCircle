@@ -3,10 +3,10 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import { Button } from '../components/ui/Button';
-import { Input } from '../components/ui/Input';
-import { Textarea } from '../components/ui/Textarea';
-import { Card } from '../components/ui/Card';
+import { Button } from '../components/ui/button';
+import { Input } from '../components/ui/input';
+import { Textarea } from '../components/ui/textarea';
+import { Card } from '../components/ui/card';
 import { trackFormSubmission, trackCTAClick } from '../../utils/analytics';
 
 export default function ContactUs() {
