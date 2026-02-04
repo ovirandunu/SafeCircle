@@ -1,0 +1,515 @@
+{
+  "brand": {
+    "name": "SafeCircle",
+    "tagline": "Peace of mind for independent living.",
+    "copyright": "© 2025 SafeCircle. All rights reserved."
+  },
+  "nav": {
+    "why": "Why SafeCircle",
+    "howitworks": "How it works",
+    "pricing": "Pricing",
+    "privacy": "Privacy & Security",
+    "cta": "Get started"
+  },
+  "footer": {
+    "product": {
+      "heading": "Product",
+      "why": "Why SafeCircle",
+      "pricing": "Pricing & What's Included",
+      "privacy": "Privacy & Security",
+      "devices": "Smart Devices"
+    },
+    "support": {
+      "heading": "Support",
+      "help": "Help Center",
+      "contact": "Contact Us"
+    },
+    "legal": {
+      "heading": "Legal",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "security": "Security",
+      "screenshots": "App Screenshots",
+      "design": "Design System"
+    }
+  },
+  "hero": {
+    "heading": "Daily reassurance on autopilot",
+    "subheading": "SafeCircle gives you safety without surveillance. Peace of mind for you and your loved ones, without compromising your independence or privacy.",
+    "cta": "Get Started",
+    "learnMore": "Why SafeCircle",
+    "title": "Daily reassurance on autopilot",
+    "subtitle": "SafeCircle gives you safety without surveillance. Peace of mind for you and your loved ones, without compromising your independence or privacy.",
+    "image": {
+      "alt": "Woman reading book alone at home"
+    }
+  },
+  "problem": {
+    "title": "I don't want to be unnoticed if something goes wrong",
+    "bullet1": {
+      "strong": "Living alone means there's no one nearby to notice",
+      "regular": "if I fall, get sick, or have an emergency. It could take a long time before anyone realizes something is wrong."
+    },
+    "bullet2": {
+      "strong": "My loved ones and I are often busy,",
+      "regular": "and daily phone calls or texts are not always realistic. But I do want them to know if I go silent for too long."
+    },
+    "bullet3": {
+      "strong": "I value my privacy and don't want surveillance.",
+      "regular": "I want help to be available if needed, but I don't want cameras, constant tracking, or anyone watching what I do day-to-day."
+    },
+    "closing": "SafeCircle gives you safety without surveillance—peace of mind for you and your loved ones, without compromising your independence or privacy."
+  },
+  "howitworks": {
+    "title": "Simple. Private. In your control.",
+    "subtitle": "By default, SafeCircle only uses your smartphone. It collects the minimum information needed to let your loved ones know that everything seems fine. No buttons to press, no devices to remember.",
+    "feature1": {
+      "title": "Maximum reassurance with minimal data collection",
+      "description": "No cameras, no audio, no surveillance. Only simple activity signals like unlocking your phone, less data than most apps collect. Or share nothing at all and use push notifications only.",
+      "alt": "Privacy-first monitoring screen"
+    },
+    "feature2": {
+      "title": "Your loved ones get the right information at the right time",
+      "description": "When all is well, contacts who have installed the app see simple confirmation. If something seems off, they can get helpful details like last activity or location via the app, WhatsApp, SMS, or email. You control what's shared and when.",
+      "alt": "Adaptive information sharing screen"
+    },
+    "feature3": {
+      "title": "Full control over how monitoring works for you",
+      "description": "Pause monitoring anytime. Choose how long before alerts are sent. Or use push-notification-only mode to confirm you're okay without sharing data.",
+      "alt": "Monitoring control settings screen"
+    },
+    "selling1": {
+      "title": "Smartphone-only monitoring",
+      "description": "Quietly tracks patterns of activity on your phone. No extra devices needed."
+    },
+    "selling2": {
+      "title": "Optional devices for reliability",
+      "description": "Connect smart lights or sensors to make monitoring more robust, but it's never required."
+    },
+    "selling3": {
+      "title": "Minimal data collection",
+      "description": "Only the signals that something is normal or unusual. Never what you are doing or who you are talking to."
+    },
+    "expandable": {
+      "button": {
+        "show": "What do we mean with monitoring?",
+        "hide": "Hide details"
+      },
+      "section1": {
+        "title": "We collect the minimum information needed",
+        "p1": "SafeCircle monitors simple activity signals—like when you unlock your phone, turn on a light, or interact with connected devices. We don't record what you're doing, who you're talking to, or what's on your screen.",
+        "p2": "Think of it like a motion sensor in a room: it knows someone is present and active, but nothing about what they're actually doing. That's all SafeCircle needs to know you're going about your normal routine.",
+        "p3": "We use these signals to learn your typical daily patterns—when you're usually active, when you typically rest. If that pattern continues normally, your trusted contacts see a simple \"all is well\" confirmation. If the pattern breaks unexpectedly, they're notified."
+      },
+      "section2": {
+        "title": "Monitoring vs. Surveillance",
+        "surveillance": {
+          "title": "Surveillance tracks what you do:",
+          "text": "Cameras watching you, GPS tracking your exact location, recording conversations, logging websites you visit, or monitoring who you communicate with. It's invasive and creates a detailed record of your life."
+        },
+        "safecircle": {
+          "title": "SafeCircle monitors that you're active:",
+          "text": "Simple signals that indicate activity is happening—nothing about what that activity is. No cameras, no audio, no detailed tracking. Just enough to know your routine continues normally, or when it doesn't."
+        },
+        "keydifference": "The key difference: Surveillance tells someone everything about your life. SafeCircle only signals whether your routine seems normal or if something might be wrong—giving you privacy while still providing reassurance."
+      }
+    }
+  },
+  "trustedcontacts": {
+    "title": "For Trusted Contacts",
+    "subtitle": "Being designated as a trusted contact means you're there when it matters most. Without consistently asking if everything is fine.",
+    "state1": {
+      "description": "Install the app to see everything is fine. If you're loved one is going about their day you see that nothing unusual is detected."
+    },
+    "state2": {
+      "description": "If something seems off, you receive an alert with helpful information. If you choose not to install the app, you get alerts via SMS."
+    }
+  },
+  "whyitmatters": {
+    "title": "Effortless reassurance",
+    "subtitle": "Many people put off organizing or sharing health and safety info. SafeCircle lowers the threshold: it's easy to set up, runs on autopilot, and ensures loved ones know you're okay without pressure or surveillance.",
+    "perfectfor": {
+      "title": "It's perfect for:",
+      "item1": "Adults living alone who want independence and safety without wearing devices like emergency buttons or smartwatches",
+      "item2": "Loved ones who want reassurance but lack time for frequent check-ins or worry about being intrusive"
+    },
+    "howitworks": {
+      "title": "How it works",
+      "step1": "SafeCircle learns your normal daily patterns using your phone and any smart devices you already have. It observes that activity is happening during your typical routine. Not what you're doing or where you are. SafeCircle uses minimal data collection, less than many popular apps.",
+      "step2": "Each day, when your activity matches your normal pattern, SafeCircle automatically marks you as checked in. If your trusted contacts have installed the app, they see quiet confirmation that you're going about your day. If not, no news is good news.",
+      "step3": "If your routine changes significantly (for example, no activity is detected for an unusual length of time) SafeCircle waits a period you decide, then alerts your trusted contacts via the app, SMS, WhatsApp, or email. They can reach out to you directly.",
+      "step4": "You can manually check in anytime, adjust your settings, or pause monitoring when you're traveling or your schedule changes."
+    },
+    "whatitisnot": {
+      "title": "What this is not",
+      "item1": {
+        "title": "Not emergency services.",
+        "text": "SafeCircle alerts your contacts, not 911. It's designed for peace of mind, not crisis response."
+      },
+      "item2": {
+        "title": "Not medical monitoring.",
+        "text": "It doesn't track health metrics, fall detection, or vital signs. It observes general activity patterns only."
+      },
+      "item3": {
+        "title": "Not surveillance.",
+        "text": "No cameras, no constant tracking, no recording of what you're doing. Just pattern recognition from devices you already use."
+      }
+    }
+  },
+  "pricing": {
+    "heading": "Peace of mind your way",
+    "subheading": "All plans come with a 14-day money-back guarantee. Cancel anytime.",
+    "billing": {
+      "monthly": "Monthly",
+      "yearly": "Yearly",
+      "save": "Save 20%"
+    },
+    "popular": "MOST POPULAR",
+    "perMonth": "/month",
+    "perYear": "/year",
+    "cta": "Get Started",
+    "plans": {
+      "basic": {
+        "name": "Basic",
+        "description": "Smartphone monitoring. Automatic alerts when your routine breaks. Peace of mind without surveillance.",
+        "features": {
+          "0": {
+            "feature": "Daily reassurance for you and loved ones",
+            "outcome": "peace of mind for everyone"
+          },
+          "1": {
+            "feature": "Smart alert notifications",
+            "outcome": "alerts only when needed"
+          },
+          "2": {
+            "feature": "Trusted contact dashboard",
+            "outcome": "quiet confirmation you're okay"
+          },
+          "3": {
+            "feature": "Privacy-first design",
+            "outcome": "minimal data collection"
+          }
+        }
+      },
+      "full": {
+        "name": "Full",
+        "description": "Optional devices",
+        "features": {
+          "0": {
+            "feature": "Everything in Basic",
+            "outcome": "all core features included"
+          },
+          "1": {
+            "feature": "Smart device integration",
+            "outcome": "works with lights, locks, and more"
+          },
+          "2": {
+            "feature": "Enhanced monitoring",
+            "outcome": "more accurate activity patterns"
+          },
+          "3": {
+            "feature": "Priority support",
+            "outcome": "fast help when needed"
+          }
+        }
+      }
+    },
+    "title": "Peace of mind your way",
+    "subtitle": "All plans come with a 14-day money-back guarantee. Cancel anytime.",
+    "toggle": {
+      "monthly": "Monthly",
+      "yearly": "Yearly",
+      "save": "Save 20%"
+    },
+    "basic": {
+      "name": "Basic",
+      "description": "Smartphone monitoring. Automatic alerts when your routine breaks. Peace of mind without surveillance.",
+      "feature1": "Daily reassurance for you and loved ones",
+      "feature1_outcome": "peace of mind for everyone",
+      "feature2": "Smart alert notifications",
+      "feature2_outcome": "alerts only when needed",
+      "feature3": "Trusted contact dashboard",
+      "feature3_outcome": "quiet confirmation you're okay",
+      "feature4": "Privacy-first design",
+      "feature4_outcome": "minimal data collection"
+    },
+    "full": {
+      "name": "Full",
+      "description": "Optional devices",
+      "badge": "MOST POPULAR",
+      "feature1": "Everything in Basic",
+      "feature1_outcome": "all core features included",
+      "feature2": "Smart device integration",
+      "feature2_outcome": "works with lights, locks, and more",
+      "feature3": "Enhanced monitoring",
+      "feature3_outcome": "more accurate activity patterns",
+      "feature4": "Priority support",
+      "feature4_outcome": "fast help when needed"
+    },
+    "peryear": "/year",
+    "yearlysavings": "€{{yearlyTotal}}/year - Save 20%"
+  },
+  "privacy": {
+    "title": "We respect your privacy",
+    "card1": {
+      "title": "No surveillance",
+      "description": "No cameras, no audio, no constant tracking. SafeCircle observes simple activity patterns only, nothing personal or invasive."
+    },
+    "card2": {
+      "title": "You control what's shared",
+      "description": "Choose exactly what each trusted contact can see. Optionally share helpful information like location only when an alert is triggered."
+    },
+    "card3": {
+      "title": "Information is encrypted and secure",
+      "description": "Bank-level encryption protects everything. Only people you explicitly authorize can see what you've chosen to share."
+    },
+    "card4": {
+      "title": "Maximum privacy mode available",
+      "description": "Want even less data shared? Use push-notification-only mode: No activity data, just simple check-ins you confirm yourself."
+    }
+  },
+  "faq": {
+    "title": "Common questions",
+    "q1": {
+      "question": "Will I need to remember to check in daily?",
+      "answer": "No. SafeCircle works passively in the background. There are no buttons to press, no daily tasks, and nothing to remember."
+    },
+    "q2": {
+      "question": "How is my information protected?",
+      "answer": "Your data is encrypted with bank-level security. You control exactly who can access what, and when. Your information is never shared without your permission."
+    },
+    "q3": {
+      "question": "Do my trusted contacts need to install the app?",
+      "answer": "No. Your trusted contacts can receive alerts via SMS, WhatsApp, or email. Installing the app gives them access to a dashboard for reassurance, but it's completely optional."
+    },
+    "q4": {
+      "question": "What if I go on vacation or change my routine?",
+      "answer": "You can easily pause monitoring or adjust your routine settings anytime. SafeCircle adapts to your life, not the other way around."
+    },
+    "q5": {
+      "question": "How does the 14-day money-back guarantee work?",
+      "answer": "Try SafeCircle risk-free for 14 days. If you're not satisfied for any reason, simply cancel your subscription in the app within 14 days of your purchase and you'll automatically receive a full refund—no questions asked, no need to contact us."
+    }
+  },
+  "finalcta": {
+    "title": "Live independently, stay prepared",
+    "subtitle": "Join SafeCircle today. 14-day money-back guarantee.",
+    "button": "Get Started"
+  },
+  "checkout": {
+    "title": "Complete Your Purchase",
+    "back": "Back to pricing",
+    "steps": {
+      "step1": "Choose Plan",
+      "step2": "Sign up",
+      "step3": "Payment"
+    },
+    "plans": {
+      "basic": {
+        "name": "Basic",
+        "description": "Smartphone only",
+        "features": {
+          "1": "Smartphone activity monitoring",
+          "2": "Smart alert notifications",
+          "3": "Trusted contact dashboard",
+          "4": "Privacy-first design"
+        }
+      },
+      "full": {
+        "name": "Full",
+        "description": "Optional devices",
+        "features": {
+          "1": "Everything in Basic",
+          "2": "Smart device integration",
+          "3": "Enhanced monitoring",
+          "4": "Priority support"
+        }
+      }
+    },
+    "pricing": {
+      "permonth": "per month",
+      "peryear": "/year"
+    },
+    "buttons": {
+      "continue": "Continue to Sign Up",
+      "back": "Back",
+      "next": "Continue to Payment",
+      "complete": "Complete Purchase"
+    },
+    "planselection": {
+      "title": "Choose Your Plan",
+      "description": "Choose the plan that's right for you"
+    },
+    "summary": {
+      "title": "Order Summary",
+      "plan": "Plan:",
+      "billing": "Billing:",
+      "subtotal": "Subtotal:",
+      "discount": "Discount (20%):",
+      "total": "Total Today:",
+      "renews": "Renews automatically every {{period}}. Cancel anytime.",
+      "secure": "Secure payment",
+      "encrypted": "Encrypted & secure",
+      "moneyback": "14-day money-back guarantee",
+      "ordersummary": "Order Summary",
+      "monthlysubscription": "Monthly Subscription",
+      "yearlysubscription": "Yearly Subscription",
+      "foundingrate": "Founding member rate",
+      "firstpayment": "First Payment",
+      "totaltoday": "Total Today",
+      "for3months": "for 3 months",
+      "forfirstyear": "for your first year",
+      "then": "Then",
+      "permonthshort": "/month",
+      "peryearshort": "/year",
+      "cancelanytime": "Cancel anytime",
+      "billedannually": "Billed annually",
+      "thats": "That's",
+      "secureencrypted": "Secure encrypted payment",
+      "moneyback30": "30-day money-back guarantee"
+    },
+    "account": {
+      "title": "Create Your Account",
+      "description": "Enter your email to get started",
+      "email": {
+        "label": "Email address",
+        "placeholder": "you@example.com",
+        "error": "Please enter a valid email address",
+        "required": "Email address is required"
+      },
+      "exists": "An account with this email already exists.",
+      "back": "Back",
+      "continue": "Continue to payment"
+    },
+    "payment": {
+      "title": "Payment Information",
+      "card": {
+        "label": "Card number",
+        "placeholder": "1234 5678 9012 3456"
+      },
+      "expiry": {
+        "label": "Expiry date",
+        "placeholder": "MM/YY"
+      },
+      "cvc": {
+        "label": "CVC",
+        "placeholder": "123"
+      },
+      "zip": {
+        "label": "ZIP / Postal code",
+        "placeholder": "12345"
+      },
+      "name": {
+        "label": "Cardholder name",
+        "placeholder": "John Doe"
+      },
+      "terms": "I agree to the {{termsLink}} and {{privacyLink}}",
+      "termslink": "Terms of Service",
+      "privacylink": "Privacy Policy"
+    },
+    "cta": {
+      "complete": "Complete Purchase",
+      "mobilecomplete": "Complete Purchase"
+    },
+    "success": {
+      "title": "Welcome to SafeCircle!",
+      "subtitle": "Your account is all set up",
+      "description": "Check your email for next steps on setting up your monitoring and adding trusted contacts.",
+      "button": "Go to Dashboard"
+    },
+    "founding": {
+      "title": "Secure Early Access as a Founding Member",
+      "description": "SafeCircle isn't live yet. You're securing your spot as a founding member today. After payment, your early access link will be sent to <strong>{{email}}</strong>. Get early access and help shape the product with your feedback.",
+      "benefit1": {
+        "title": "Special founding member rate for your first year",
+        "titleMonthly": "Special founding member rate for your first 3 months",
+        "description": "Then standard pricing — cancel anytime"
+      },
+      "benefit2": {
+        "title": "Extended 30-day money-back guarantee",
+        "description": "Starts from your first login. You'll have a full month to quietly try it out. If it's not right for you, you'll receive a full refund — no questions asked."
+      }
+    },
+    "trust": {
+      "agree": "I agree to the {{termsLink}} and {{privacyLink}}",
+      "termslink": "Terms of Service",
+      "privacylink": "Privacy Policy",
+      "refund": "Full refund guaranteed",
+      "private": "Your data is private",
+      "cancel": "Cancel anytime"
+    },
+    "founders": {
+      "title": "Want to help shape this with us?",
+      "cta": "Schedule a short call with the founders →"
+    },
+    "thankyou": {
+      "title": "Thank You for Joining SafeCircle!",
+      "description": "SafeCircle is not live yet. Your payment has been authorized but will not be charged until you receive access to the app via email.",
+      "whathappens": "What happens next?",
+      "step1": "We'll send you an email when SafeCircle is ready to launch",
+      "step2": "Your payment will only be processed once you receive access",
+      "step3": "As a founding member, you'll get priority access and special pricing",
+      "thankyoutext": "Thank you for your registration and patience as we prepare your access. We're excited to have you as a founding member!",
+      "questions": "Have questions or want to learn more?",
+      "questionstext": "We'd be happy to answer any questions via video call or email.",
+      "contact": "Contact us",
+      "home": "Return to Home"
+    }
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "description": "Have questions? We're here to help. Send us a message or schedule a call.",
+    "form": {
+      "title": "Send Us a Message",
+      "response": "We typically respond within 24 hours.",
+      "success": "Message sent successfully! We'll get back to you soon.",
+      "error": "Failed to send message. Please try again or email us directly at safecircle@bartgeelen.com",
+      "sending": "Sending...",
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send Message"
+    },
+    "schedule": {
+      "title": "Schedule a Call",
+      "description": "Book a 30-minute video call with our team. We'll walk you through SafeCircle, answer your questions, and help you determine if it's right for you.",
+      "cover": {
+        "title": "What we'll cover:",
+        "item1": "How SafeCircle works",
+        "item2": "Setup and device compatibility",
+        "item3": "Privacy and security features",
+        "item4": "Pricing and plan options",
+        "item5": "Your specific questions"
+      },
+      "button": "Schedule Your Call",
+      "hours": "Available Monday - Friday, 9 AM - 5 PM EST"
+    }
+  },
+  "help": {
+    "title": "Help Center",
+    "description": "Find answers, get support, and learn how to make the most of SafeCircle",
+    "faqtitle": "Common Questions",
+    "cta": {
+      "title": "Still Need Help?",
+      "description": "Our support team is here to help you. Get in touch and we'll respond within 24 hours.",
+      "button": "Contact Support"
+    }
+  },
+  "devices": {
+    "title": "Compatible Smart Devices",
+    "subtitle": "Enhance your monitoring with optional smart devices. Not required, but adds reliability."
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastupdated": "Last updated: {{date}}"
+  },
+  "privacypolicy": {
+    "title": "Privacy Policy",
+    "lastupdated": "Last updated: {{date}}"
+  },
+  "security": {
+    "title": "Security & Data Protection",
+    "description": "Your security and privacy are our top priorities"
+  }
+}
