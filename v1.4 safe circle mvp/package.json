@@ -11,6 +11,7 @@
     "server:dev": "nodemon server.js",
     "db:setup": "psql -U postgres -f database/schema.sql",
     "start": "concurrently \"npm run dev\" \"npm run server:dev\"",
+    "start:prod": "node serve-app.js",
     "check-env": "node check-env.js"
   },
   "dependencies": {
